@@ -1,0 +1,215 @@
+[
+  {
+    "event_id": "1996435-795547-5148",
+    "match_id": 1996435,
+    "period": 1,
+    "player_id": 795547,
+    "holder_id": 51644,
+    "team_id": 869,
+    "start_index": 2574,
+    "end_index": 2581,
+    "analysis_index": 2576,
+    "start_frame": 5148,
+    "end_frame": 5162,
+    "analysis_frame": 5152,
+    "clock_s": 514.2,
+    "duration_s": 1.4,
+    "arms": "right",
+    "kind": "visual_candidate",
+    "review_label": "unreviewed",
+    "x": 11.569999694824219,
+    "y": -32.65999984741211,
+    "definition": "Visual candidate: the frozen geometric rule returns no state because the raised wrist's predicted error exceeds 20 cm. Onset is the first 5 Hz sample with the right wrist above the shoulder while the holder is known; confirmation follows the same three-sample rule.",
+    "player_name": "Z. de Jesus",
+    "shirt_number": 21,
+    "holder_name": "R. Grant",
+    "nearest_opponent_m": 11.290039921141771,
+    "active_players": 22,
+    "missing_velocity_players": 0,
+    "detected_fraction": 0.9090909090909091,
+    "region_uses_extrapolated": true,
+    "region": {
+      "team_id": "869",
+      "radius_m": 4.0,
+      "sample_count": 36,
+      "mean_arrival_control_proxy": 0.9654341970874997,
+      "min_arrival_control_proxy": 0.8635093882670234,
+      "threshold_fraction": 1.0
+    },
+    "region_sensitivity": {
+      "4.0": {
+        "team_id": "869",
+        "radius_m": 4.0,
+        "sample_count": 36,
+        "mean_arrival_control_proxy": 0.9654341970874997,
+        "min_arrival_control_proxy": 0.8635093882670234,
+        "threshold_fraction": 1.0
+      },
+      "5.0": {
+        "team_id": "869",
+        "radius_m": 5.0,
+        "sample_count": 55,
+        "mean_arrival_control_proxy": 0.9301573645832573,
+        "min_arrival_control_proxy": 0.642782421299129,
+        "threshold_fraction": 1.0
+      }
+    },
+    "region_favorable": true,
+    "vision": {
+      "status": "in_view",
+      "meaning": "At least one usable in-view sample before the holder action",
+      "total_samples": 6,
+      "known_samples": 6,
+      "in_view_samples": 5,
+      "in_view_fraction_known": 0.8333333333333334,
+      "stop_before_action_frame": 5160,
+      "sample_counts": {
+        "in_view": 5,
+        "out_of_view": 1
+      },
+      "occlusion_flag_samples": 0,
+      "observed_interval_s": 1.0,
+      "observations": [
+        {
+          "frame": 5148,
+          "status": "in_view",
+          "zone": "central",
+          "eccentricity_deg": 15.49329661763616,
+          "target_distance_m": 25.03465651590225,
+          "heading": {
+            "direction": {
+              "x": 0.9191444411892646,
+              "y": -0.39392067251018237
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.16754638521669593,
+            "nose_sign_component_m": 0.13051853359892654,
+            "ear_landmark_error_m": 0.0634500002861023,
+            "sign_landmark_error_m": 0.06350000063578289,
+            "eye_directional_agreement_deg": 5.485121048387344,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 5150,
+          "status": "in_view",
+          "zone": "peripheral",
+          "eccentricity_deg": 50.09033763585842,
+          "target_distance_m": 25.137972971058947,
+          "heading": {
+            "direction": {
+              "x": 0.9810303411650718,
+              "y": 0.19385424863423245
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.1702309472353656,
+            "nose_sign_component_m": 0.13631033507226145,
+            "ear_landmark_error_m": 0.06070000171661377,
+            "sign_landmark_error_m": 0.0603000005086263,
+            "eye_directional_agreement_deg": 0.02186712963856676,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 5152,
+          "status": "in_view",
+          "zone": "peripheral",
+          "eccentricity_deg": 27.889441618879676,
+          "target_distance_m": 25.29452891538303,
+          "heading": {
+            "direction": {
+              "x": 0.9810443657269313,
+              "y": -0.1937832615977009
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.16513081547325428,
+            "nose_sign_component_m": 0.1292308204667727,
+            "ear_landmark_error_m": 0.06019999980926513,
+            "sign_landmark_error_m": 0.061333333651224765,
+            "eye_directional_agreement_deg": 5.047439127359628,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 5154,
+          "status": "in_view",
+          "zone": "peripheral",
+          "eccentricity_deg": 73.0794000290249,
+          "target_distance_m": 25.473076046034773,
+          "heading": {
+            "direction": {
+              "x": 0.8302203830882536,
+              "y": 0.5574353016313134
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.16862918870730179,
+            "nose_sign_component_m": 0.12616959276861775,
+            "ear_landmark_error_m": 0.0622000002861023,
+            "sign_landmark_error_m": 0.06266666730244955,
+            "eye_directional_agreement_deg": 7.3153868907345,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 5156,
+          "status": "in_view",
+          "zone": "peripheral",
+          "eccentricity_deg": 87.60815707873645,
+          "target_distance_m": 25.64403605822928,
+          "heading": {
+            "direction": {
+              "x": 0.6657848097488942,
+              "y": 0.7461438112774431
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.17422930067375342,
+            "nose_sign_component_m": 0.1234229842778844,
+            "ear_landmark_error_m": 0.06585000038146972,
+            "sign_landmark_error_m": 0.06643333435058595,
+            "eye_directional_agreement_deg": 13.878124201923768,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 5158,
+          "status": "out_of_view",
+          "zone": null,
+          "eccentricity_deg": 112.8096900071336,
+          "target_distance_m": 25.79202427423781,
+          "heading": {
+            "direction": {
+              "x": 0.28788475663091556,
+              "y": 0.9576650598719567
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.1702062552751746,
+            "nose_sign_component_m": 0.1113481908284919,
+            "ear_landmark_error_m": 0.06824999809265136,
+            "sign_landmark_error_m": 0.06756666501363118,
+            "eye_directional_agreement_deg": 14.995832645300055,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        }
+      ]
+    },
+    "vision_sensitivity": {
+      "60.0": "in_view",
+      "90.0": "in_view",
+      "110.0": "in_view"
+    },
+    "response": {
+      "possession_event_id": "8_130",
+      "response_category": "pass_elsewhere",
+      "action_frame": 5160,
+      "latency_s": 0.8,
+      "target_id": 998256,
+      "pass_outcome": "successful"
+    }
+  }
+]

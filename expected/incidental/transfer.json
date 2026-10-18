@@ -1,0 +1,79 @@
+{
+  "summary": {
+    "selected": 1,
+    "identity_and_label_evaluable": 1,
+    "excluded": 0,
+    "observed_class_support": {
+      "no_signal": 0,
+      "one_arm_raise": 1,
+      "two_arm_raise": 0,
+      "directional_point": 0,
+      "hand_to_head": 0
+    },
+    "can_estimate_raised_recall": true,
+    "models": {
+      "geometry": {
+        "evaluated": 1,
+        "abstained": 0,
+        "correct": 0,
+        "unit": "visually assessable sampled player-window; not an event rate"
+      },
+      "ridge": {
+        "evaluated": 1,
+        "abstained": 0,
+        "correct": 1,
+        "unit": "visually assessable sampled player-window; not an event rate"
+      },
+      "tcn": {
+        "evaluated": 1,
+        "abstained": 0,
+        "correct": 0,
+        "unit": "visually assessable sampled player-window; not an event rate"
+      }
+    },
+    "claim_limit": "Descriptive counts for a small visually reviewed sample. No overall five-class F1, population frequency, external-match validation or request-intent claim. Absent classes have no measurable recall."
+  },
+  "cases": [
+    {
+      "case_id": "incidental-1996435-1-01",
+      "match_id": 1996435,
+      "gesture_type": "one_arm_raise",
+      "evaluable_identity": true,
+      "identity_confidence": "high",
+      "raised_label": "raised",
+      "valid_fraction": 0.8746081504702194,
+      "geometry": "other",
+      "ridge": "one_arm_raise",
+      "tcn": "directional_point",
+      "ridge_softmax_scores": [
+        6.968381512706401e-06,
+        0.9945273995399475,
+        9.850097058006213e-07,
+        5.6767439673421904e-05,
+        0.005407867953181267
+      ],
+      "tcn_softmax_scores": [
+        5.19884313376906e-09,
+        2.7639125526040392e-14,
+        1.1058106116272272e-17,
+        0.9999746084213257,
+        2.5376291887369007e-05
+      ],
+      "scores_limit": "uncalibrated model outputs, not probabilities of requesting a pass"
+    }
+  ],
+  "provenance": {
+    "model_files_sha256": {
+      "checkpoints/tcn-seed-27.pt": "78e6b1b7cc45fddad5e2108e982d5051a5ccf1bb740171d7eb30c90cb4abe766",
+      "models/ridge.npz": "d4332b0c437bda14ccdf9995173489a3ac368425d8342bd165b9ccfe61978405",
+      "models/ridge.json": "9c4d61c96b3e8977a3dad35c60bd7728427fb1ce59e04513510f52767cb9bc23",
+      "config.toml": "dc7ddc56e05ca79252117b57dda232a906c250700db0a802f535df62c815b405",
+      "metrics.json": "e46f46291d0b79a0ea7b7f5fd381ef382200fd34cff33dfd0768c906596ec72e"
+    },
+    "selection_sha256": "dc24d689f99adbf760cfba83914e3182df6412c3df44c5a35b08ed1189de7ca9",
+    "annotations_sha256": "03e4e18e27123752e27aee95b3f9c0ffe5cfa9d4218c57e58a5869ec17a98fa3",
+    "windows_sha256": "1b43efb2f3d3897dbae0dd08845aa4b57ad8aa3383488c7e6299125a62192049",
+    "evaluator_sha256": "59ddb2fc535d11be936ee59937e106edb2066a9bad47b3d3f2af2965528db81e",
+    "no_fitting_or_threshold_tuning": true
+  }
+}

@@ -1,0 +1,1329 @@
+[
+  {
+    "event_id": "1996435-28293-2574",
+    "match_id": 1996435,
+    "period": 1,
+    "player_id": 28293,
+    "holder_id": 931987,
+    "team_id": 869,
+    "start_index": 1287,
+    "end_index": 1290,
+    "analysis_index": 1289,
+    "start_frame": 2574,
+    "end_frame": 2580,
+    "analysis_frame": 2578,
+    "clock_s": 256.8,
+    "duration_s": 0.6,
+    "arms": "left",
+    "kind": "raised_arm_candidate",
+    "review_label": "unreviewed",
+    "x": -17.989999771118164,
+    "y": -13.5,
+    "player_name": "Léo Sena",
+    "shirt_number": 15,
+    "holder_name": "H. Devenish-Meares",
+    "nearest_opponent_m": 4.656919833714839,
+    "active_players": 22,
+    "missing_velocity_players": 0,
+    "detected_fraction": 0.5909090909090909,
+    "region_uses_extrapolated": true,
+    "region": {
+      "team_id": "869",
+      "radius_m": 4.0,
+      "sample_count": 49,
+      "mean_arrival_control_proxy": 0.6750348166877423,
+      "min_arrival_control_proxy": 0.14023787717078348,
+      "threshold_fraction": 0.7755102040816326
+    },
+    "region_sensitivity": {
+      "4.0": {
+        "team_id": "869",
+        "radius_m": 4.0,
+        "sample_count": 49,
+        "mean_arrival_control_proxy": 0.6750348166877423,
+        "min_arrival_control_proxy": 0.14023787717078348,
+        "threshold_fraction": 0.7755102040816326
+      },
+      "5.0": {
+        "team_id": "869",
+        "radius_m": 5.0,
+        "sample_count": 81,
+        "mean_arrival_control_proxy": 0.5999323505143991,
+        "min_arrival_control_proxy": 0.04273939464795724,
+        "threshold_fraction": 0.6666666666666666
+      }
+    },
+    "region_favorable": true,
+    "vision": {
+      "status": "unknown",
+      "meaning": "At least one usable in-view sample before the holder action",
+      "total_samples": 4,
+      "known_samples": 0,
+      "in_view_samples": 0,
+      "in_view_fraction_known": null,
+      "stop_before_action_frame": 2583,
+      "sample_counts": {
+        "unknown": 4
+      },
+      "occlusion_flag_samples": 0,
+      "observed_interval_s": 0.6,
+      "observations": [
+        {
+          "frame": 2574,
+          "status": "unknown",
+          "zone": null,
+          "eccentricity_deg": null,
+          "target_distance_m": 30.48488892363413,
+          "heading": null,
+          "occlusion_flag": false
+        },
+        {
+          "frame": 2576,
+          "status": "unknown",
+          "zone": null,
+          "eccentricity_deg": null,
+          "target_distance_m": 29.874001502808344,
+          "heading": null,
+          "occlusion_flag": false
+        },
+        {
+          "frame": 2578,
+          "status": "unknown",
+          "zone": null,
+          "eccentricity_deg": null,
+          "target_distance_m": 29.24847095946723,
+          "heading": null,
+          "occlusion_flag": false
+        },
+        {
+          "frame": 2580,
+          "status": "unknown",
+          "zone": null,
+          "eccentricity_deg": null,
+          "target_distance_m": 28.616320524859113,
+          "heading": null,
+          "occlusion_flag": false
+        }
+      ]
+    },
+    "vision_sensitivity": {
+      "60.0": "unknown",
+      "90.0": "unknown",
+      "110.0": "unknown"
+    },
+    "response": {
+      "possession_event_id": "8_90",
+      "response_category": "pass_elsewhere",
+      "action_frame": 2583,
+      "latency_s": 0.5,
+      "target_id": 795547,
+      "pass_outcome": "successful"
+    }
+  },
+  {
+    "event_id": "1996435-28293-8914",
+    "match_id": 1996435,
+    "period": 1,
+    "player_id": 28293,
+    "holder_id": 51000,
+    "team_id": 869,
+    "start_index": 4457,
+    "end_index": 4459,
+    "analysis_index": 4459,
+    "start_frame": 8914,
+    "end_frame": 8918,
+    "analysis_frame": 8918,
+    "clock_s": 890.8,
+    "duration_s": 0.4,
+    "arms": "left",
+    "kind": "raised_arm_candidate",
+    "review_label": "unreviewed",
+    "x": -13.59000015258789,
+    "y": -0.5400000214576721,
+    "player_name": "Léo Sena",
+    "shirt_number": 15,
+    "holder_name": "J. Courtney-Perkins",
+    "nearest_opponent_m": 3.9636474496741902,
+    "active_players": 22,
+    "missing_velocity_players": 0,
+    "detected_fraction": 0.6818181818181818,
+    "region_uses_extrapolated": true,
+    "region": {
+      "team_id": "869",
+      "radius_m": 4.0,
+      "sample_count": 49,
+      "mean_arrival_control_proxy": 0.6493093197483644,
+      "min_arrival_control_proxy": 0.10925977461293536,
+      "threshold_fraction": 0.7142857142857143
+    },
+    "region_sensitivity": {
+      "4.0": {
+        "team_id": "869",
+        "radius_m": 4.0,
+        "sample_count": 49,
+        "mean_arrival_control_proxy": 0.6493093197483644,
+        "min_arrival_control_proxy": 0.10925977461293536,
+        "threshold_fraction": 0.7142857142857143
+      },
+      "5.0": {
+        "team_id": "869",
+        "radius_m": 5.0,
+        "sample_count": 81,
+        "mean_arrival_control_proxy": 0.6107338030970847,
+        "min_arrival_control_proxy": 0.054224812536715246,
+        "threshold_fraction": 0.654320987654321
+      }
+    },
+    "region_favorable": false,
+    "vision": {
+      "status": "in_view",
+      "meaning": "At least one usable in-view sample before the holder action",
+      "total_samples": 3,
+      "known_samples": 3,
+      "in_view_samples": 3,
+      "in_view_fraction_known": 1.0,
+      "stop_before_action_frame": 8934,
+      "sample_counts": {
+        "in_view": 3
+      },
+      "occlusion_flag_samples": 0,
+      "observed_interval_s": 0.4,
+      "observations": [
+        {
+          "frame": 8914,
+          "status": "in_view",
+          "zone": "central",
+          "eccentricity_deg": 3.0711909705057785,
+          "target_distance_m": 29.678889162609526,
+          "heading": {
+            "direction": {
+              "x": 0.13682072462077083,
+              "y": -0.990595825407238
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.182718068476581,
+            "nose_sign_component_m": 0.1316346379693812,
+            "ear_landmark_error_m": 0.06960000038146973,
+            "sign_landmark_error_m": 0.06823333422342936,
+            "eye_directional_agreement_deg": 7.914732221613244,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 8916,
+          "status": "in_view",
+          "zone": "central",
+          "eccentricity_deg": 10.874769920875275,
+          "target_distance_m": 29.32585538912458,
+          "heading": {
+            "direction": {
+              "x": -0.005646522554451801,
+              "y": -0.9999840582644516
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.17700286750927233,
+            "nose_sign_component_m": 0.13547803676135783,
+            "ear_landmark_error_m": 0.06890000104904176,
+            "sign_landmark_error_m": 0.07020000139872233,
+            "eye_directional_agreement_deg": 8.59711679903933,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 8918,
+          "status": "in_view",
+          "zone": "central",
+          "eccentricity_deg": 8.078941618503086,
+          "target_distance_m": 28.964263110363607,
+          "heading": {
+            "direction": {
+              "x": 0.04019724392712218,
+              "y": -0.9991917641677515
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.174140532995567,
+            "nose_sign_component_m": 0.129678054628651,
+            "ear_landmark_error_m": 0.08249999999999999,
+            "sign_landmark_error_m": 0.08656666755676269,
+            "eye_directional_agreement_deg": 4.9694507663309615,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        }
+      ]
+    },
+    "vision_sensitivity": {
+      "60.0": "in_view",
+      "90.0": "in_view",
+      "110.0": "in_view"
+    },
+    "response": {
+      "possession_event_id": "8_223",
+      "response_category": "pass_elsewhere",
+      "action_frame": 8934,
+      "latency_s": 1.6,
+      "target_id": 998256,
+      "pass_outcome": "successful"
+    }
+  },
+  {
+    "event_id": "1996435-51646-10350",
+    "match_id": 1996435,
+    "period": 1,
+    "player_id": 51646,
+    "holder_id": 809759,
+    "team_id": 866,
+    "start_index": 5175,
+    "end_index": 5177,
+    "analysis_index": 5177,
+    "start_frame": 10350,
+    "end_frame": 10354,
+    "analysis_frame": 10354,
+    "clock_s": 1034.4,
+    "duration_s": 0.4,
+    "arms": "right",
+    "kind": "raised_arm_candidate",
+    "review_label": "unreviewed",
+    "x": -7.46999979019165,
+    "y": 17.3700008392334,
+    "player_name": "J. Yull",
+    "shirt_number": 12,
+    "holder_name": "P. Kikianis",
+    "nearest_opponent_m": 4.309548143700088,
+    "active_players": 22,
+    "missing_velocity_players": 0,
+    "detected_fraction": 0.6818181818181818,
+    "region_uses_extrapolated": true,
+    "region": {
+      "team_id": "866",
+      "radius_m": 4.0,
+      "sample_count": 49,
+      "mean_arrival_control_proxy": 0.5237449826069985,
+      "min_arrival_control_proxy": 0.038100890933466865,
+      "threshold_fraction": 0.5306122448979592
+    },
+    "region_sensitivity": {
+      "4.0": {
+        "team_id": "866",
+        "radius_m": 4.0,
+        "sample_count": 49,
+        "mean_arrival_control_proxy": 0.5237449826069985,
+        "min_arrival_control_proxy": 0.038100890933466865,
+        "threshold_fraction": 0.5306122448979592
+      },
+      "5.0": {
+        "team_id": "866",
+        "radius_m": 5.0,
+        "sample_count": 81,
+        "mean_arrival_control_proxy": 0.5030479126153352,
+        "min_arrival_control_proxy": 0.038100890933466865,
+        "threshold_fraction": 0.5061728395061729
+      }
+    },
+    "region_favorable": false,
+    "vision": {
+      "status": "in_view",
+      "meaning": "At least one usable in-view sample before the holder action",
+      "total_samples": 3,
+      "known_samples": 3,
+      "in_view_samples": 2,
+      "in_view_fraction_known": 0.6666666666666666,
+      "stop_before_action_frame": 10360,
+      "sample_counts": {
+        "in_view": 2,
+        "out_of_view": 1
+      },
+      "occlusion_flag_samples": 0,
+      "observed_interval_s": 0.4,
+      "observations": [
+        {
+          "frame": 10350,
+          "status": "in_view",
+          "zone": "peripheral",
+          "eccentricity_deg": 38.9049771259063,
+          "target_distance_m": 37.97574142256644,
+          "heading": {
+            "direction": {
+              "x": -0.36297108904133224,
+              "y": 0.9318004016527087
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.18458779085742286,
+            "nose_sign_component_m": 0.14006292038112664,
+            "ear_landmark_error_m": 0.10424999713897706,
+            "sign_landmark_error_m": 0.10333333015441896,
+            "eye_directional_agreement_deg": 16.825505956053,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 10352,
+          "status": "in_view",
+          "zone": "peripheral",
+          "eccentricity_deg": 44.16379032222054,
+          "target_distance_m": 37.69482905491429,
+          "heading": {
+            "direction": {
+              "x": -0.2918066730559563,
+              "y": 0.956477320985717
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.1850540957876097,
+            "nose_sign_component_m": 0.13092415913833663,
+            "ear_landmark_error_m": 0.08559999942779542,
+            "sign_landmark_error_m": 0.08563333193461102,
+            "eye_directional_agreement_deg": 14.19594340112104,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 10354,
+          "status": "out_of_view",
+          "zone": null,
+          "eccentricity_deg": 93.35857920493301,
+          "target_distance_m": 37.37435611946685,
+          "heading": {
+            "direction": {
+              "x": 0.5184205322836714,
+              "y": 0.8551258104552305
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.1871067923057224,
+            "nose_sign_component_m": 0.13814081203880296,
+            "ear_landmark_error_m": 0.08394999980926514,
+            "sign_landmark_error_m": 0.08023333390553793,
+            "eye_directional_agreement_deg": 9.4255293837446,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        }
+      ]
+    },
+    "vision_sensitivity": {
+      "60.0": "in_view",
+      "90.0": "in_view",
+      "110.0": "in_view"
+    },
+    "response": {
+      "possession_event_id": "8_265",
+      "response_category": "pass_elsewhere",
+      "action_frame": 10360,
+      "latency_s": 0.6,
+      "target_id": 809070,
+      "pass_outcome": "successful"
+    }
+  },
+  {
+    "event_id": "1996435-28293-12220",
+    "match_id": 1996435,
+    "period": 1,
+    "player_id": 28293,
+    "holder_id": 51045,
+    "team_id": 869,
+    "start_index": 6110,
+    "end_index": 6112,
+    "analysis_index": 6112,
+    "start_frame": 12220,
+    "end_frame": 12224,
+    "analysis_frame": 12224,
+    "clock_s": 1221.4,
+    "duration_s": 0.4,
+    "arms": "right",
+    "kind": "raised_arm_candidate",
+    "review_label": "unreviewed",
+    "x": 1.9299999475479126,
+    "y": 22.770000457763672,
+    "player_name": "Léo Sena",
+    "shirt_number": 15,
+    "holder_name": "A. Cáceres",
+    "nearest_opponent_m": 10.233161754063365,
+    "active_players": 22,
+    "missing_velocity_players": 0,
+    "detected_fraction": 0.9090909090909091,
+    "region_uses_extrapolated": true,
+    "region": {
+      "team_id": "869",
+      "radius_m": 4.0,
+      "sample_count": 49,
+      "mean_arrival_control_proxy": 0.9696275879669214,
+      "min_arrival_control_proxy": 0.884774615770313,
+      "threshold_fraction": 1.0
+    },
+    "region_sensitivity": {
+      "4.0": {
+        "team_id": "869",
+        "radius_m": 4.0,
+        "sample_count": 49,
+        "mean_arrival_control_proxy": 0.9696275879669214,
+        "min_arrival_control_proxy": 0.884774615770313,
+        "threshold_fraction": 1.0
+      },
+      "5.0": {
+        "team_id": "869",
+        "radius_m": 5.0,
+        "sample_count": 81,
+        "mean_arrival_control_proxy": 0.9493465476445728,
+        "min_arrival_control_proxy": 0.6868869153344019,
+        "threshold_fraction": 1.0
+      }
+    },
+    "region_favorable": true,
+    "vision": {
+      "status": "out_of_view",
+      "meaning": "At least one usable in-view sample before the holder action",
+      "total_samples": 3,
+      "known_samples": 3,
+      "in_view_samples": 0,
+      "in_view_fraction_known": 0.0,
+      "stop_before_action_frame": 12227,
+      "sample_counts": {
+        "out_of_view": 3
+      },
+      "occlusion_flag_samples": 0,
+      "observed_interval_s": 0.4,
+      "observations": [
+        {
+          "frame": 12220,
+          "status": "out_of_view",
+          "zone": null,
+          "eccentricity_deg": 107.54332335159764,
+          "target_distance_m": 33.07279516113758,
+          "heading": {
+            "direction": {
+              "x": 0.9573277482548382,
+              "y": -0.2890044678224218
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.16608773434005814,
+            "nose_sign_component_m": 0.12208652617523577,
+            "ear_landmark_error_m": 0.05759999990463256,
+            "sign_landmark_error_m": 0.059600000381469724,
+            "eye_directional_agreement_deg": 4.157984027421398,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 12222,
+          "status": "out_of_view",
+          "zone": null,
+          "eccentricity_deg": 138.25682299014434,
+          "target_distance_m": 33.101546218829895,
+          "heading": {
+            "direction": {
+              "x": 0.6729747738163048,
+              "y": -0.7396654336974884
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.16493940836102547,
+            "nose_sign_component_m": 0.12952047832154867,
+            "ear_landmark_error_m": 0.061349999904632566,
+            "sign_landmark_error_m": 0.062100000381469726,
+            "eye_directional_agreement_deg": 2.3606412804766763,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 12224,
+          "status": "out_of_view",
+          "zone": null,
+          "eccentricity_deg": 154.1213682243145,
+          "target_distance_m": 33.160730588952546,
+          "heading": {
+            "direction": {
+              "x": 0.44242573447649325,
+              "y": -0.8968051457663117
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.1672605203879132,
+            "nose_sign_component_m": 0.12882876538414922,
+            "ear_landmark_error_m": 0.0597000002861023,
+            "sign_landmark_error_m": 0.061000000635782876,
+            "eye_directional_agreement_deg": 4.4570631407243875,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        }
+      ]
+    },
+    "vision_sensitivity": {
+      "60.0": "out_of_view",
+      "90.0": "out_of_view",
+      "110.0": "in_view"
+    },
+    "response": {
+      "possession_event_id": "8_295",
+      "response_category": "pass_elsewhere",
+      "action_frame": 12227,
+      "latency_s": 0.3,
+      "target_id": 795547,
+      "pass_outcome": "successful"
+    }
+  },
+  {
+    "event_id": "1996435-809759-36520",
+    "match_id": 1996435,
+    "period": 2,
+    "player_id": 809759,
+    "holder_id": 26766,
+    "team_id": 866,
+    "start_index": 18260,
+    "end_index": 18264,
+    "analysis_index": 18262,
+    "start_frame": 36520,
+    "end_frame": 36528,
+    "analysis_frame": 36524,
+    "clock_s": 3549.4,
+    "duration_s": 0.8,
+    "arms": "right",
+    "kind": "raised_arm_candidate",
+    "review_label": "unreviewed",
+    "x": -45.599998474121094,
+    "y": 0.4699999988079071,
+    "player_name": "P. Kikianis",
+    "shirt_number": 51,
+    "holder_name": "B. Vriends",
+    "nearest_opponent_m": 9.493617089891481,
+    "active_players": 22,
+    "missing_velocity_players": 0,
+    "detected_fraction": 0.5909090909090909,
+    "region_uses_extrapolated": true,
+    "region": {
+      "team_id": "866",
+      "radius_m": 4.0,
+      "sample_count": 49,
+      "mean_arrival_control_proxy": 0.930875693502377,
+      "min_arrival_control_proxy": 0.7159452755660716,
+      "threshold_fraction": 1.0
+    },
+    "region_sensitivity": {
+      "4.0": {
+        "team_id": "866",
+        "radius_m": 4.0,
+        "sample_count": 49,
+        "mean_arrival_control_proxy": 0.930875693502377,
+        "min_arrival_control_proxy": 0.7159452755660716,
+        "threshold_fraction": 1.0
+      },
+      "5.0": {
+        "team_id": "866",
+        "radius_m": 5.0,
+        "sample_count": 81,
+        "mean_arrival_control_proxy": 0.9012368834931936,
+        "min_arrival_control_proxy": 0.46299501605862137,
+        "threshold_fraction": 0.9876543209876543
+      }
+    },
+    "region_favorable": true,
+    "vision": {
+      "status": "in_view",
+      "meaning": "At least one usable in-view sample before the holder action",
+      "total_samples": 5,
+      "known_samples": 5,
+      "in_view_samples": 2,
+      "in_view_fraction_known": 0.4,
+      "stop_before_action_frame": 36531,
+      "sample_counts": {
+        "in_view": 2,
+        "out_of_view": 3
+      },
+      "occlusion_flag_samples": 0,
+      "observed_interval_s": 0.8,
+      "observations": [
+        {
+          "frame": 36520,
+          "status": "in_view",
+          "zone": "central",
+          "eccentricity_deg": 8.676584173304747,
+          "target_distance_m": 17.48179626884641,
+          "heading": {
+            "direction": {
+              "x": 0.03331765122616553,
+              "y": 0.9994448129420512
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.1801002945284362,
+            "nose_sign_component_m": 0.13036013264932428,
+            "ear_landmark_error_m": 0.0727999997138977,
+            "sign_landmark_error_m": 0.06973333358764648,
+            "eye_directional_agreement_deg": 6.7386341135288115,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 36522,
+          "status": "in_view",
+          "zone": "peripheral",
+          "eccentricity_deg": 44.3309252775196,
+          "target_distance_m": 17.5895431530958,
+          "heading": {
+            "direction": {
+              "x": 0.6147420843545831,
+              "y": 0.7887281976215779
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.17243150089495646,
+            "nose_sign_component_m": 0.12472428615838466,
+            "ear_landmark_error_m": 0.0634500002861023,
+            "sign_landmark_error_m": 0.06350000063578289,
+            "eye_directional_agreement_deg": 10.247824903196857,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 36524,
+          "status": "out_of_view",
+          "zone": null,
+          "eccentricity_deg": 98.1676298814354,
+          "target_distance_m": 17.757680222952963,
+          "heading": {
+            "direction": {
+              "x": 0.9992925894468286,
+              "y": -0.037607455067473296
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.18613249606661503,
+            "nose_sign_component_m": 0.14066488147071715,
+            "ear_landmark_error_m": 0.05759999990463256,
+            "sign_landmark_error_m": 0.057866667111714676,
+            "eye_directional_agreement_deg": 0.21489915982645807,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 36526,
+          "status": "out_of_view",
+          "zone": null,
+          "eccentricity_deg": 118.78463017543525,
+          "target_distance_m": 17.94651046408761,
+          "heading": {
+            "direction": {
+              "x": 0.9194332985181268,
+              "y": -0.3932459911761048
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.18054639360841548,
+            "nose_sign_component_m": 0.14200087234743014,
+            "ear_landmark_error_m": 0.0634500002861023,
+            "sign_landmark_error_m": 0.06176666736602784,
+            "eye_directional_agreement_deg": 5.99335733662874,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 36528,
+          "status": "out_of_view",
+          "zone": null,
+          "eccentricity_deg": 140.2144343142274,
+          "target_distance_m": 18.155134085304848,
+          "heading": {
+            "direction": {
+              "x": 0.7071067811865476,
+              "y": -0.7071067811865476
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.19657559885311446,
+            "nose_sign_component_m": 0.12020820674967918,
+            "ear_landmark_error_m": 0.09199999809265137,
+            "sign_landmark_error_m": 0.09096666653951009,
+            "eye_directional_agreement_deg": 41.31042606726581,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        }
+      ]
+    },
+    "vision_sensitivity": {
+      "60.0": "in_view",
+      "90.0": "in_view",
+      "110.0": "in_view"
+    },
+    "response": {
+      "possession_event_id": "8_672",
+      "response_category": "pass_elsewhere",
+      "action_frame": 36531,
+      "latency_s": 0.7,
+      "target_id": 51005,
+      "pass_outcome": "successful"
+    }
+  },
+  {
+    "event_id": "1996435-809759-49284",
+    "match_id": 1996435,
+    "period": 2,
+    "player_id": 809759,
+    "holder_id": 51646,
+    "team_id": 866,
+    "start_index": 24642,
+    "end_index": 24649,
+    "analysis_index": 24644,
+    "start_frame": 49284,
+    "end_frame": 49298,
+    "analysis_frame": 49288,
+    "clock_s": 4825.8,
+    "duration_s": 1.4,
+    "arms": "right",
+    "kind": "raised_arm_candidate",
+    "review_label": "unreviewed",
+    "x": 1.3700000047683716,
+    "y": -1.440000057220459,
+    "player_name": "P. Kikianis",
+    "shirt_number": 51,
+    "holder_name": "J. Yull",
+    "nearest_opponent_m": 17.80718971988951,
+    "active_players": 22,
+    "missing_velocity_players": 0,
+    "detected_fraction": 0.9090909090909091,
+    "region_uses_extrapolated": true,
+    "region": {
+      "team_id": "866",
+      "radius_m": 4.0,
+      "sample_count": 49,
+      "mean_arrival_control_proxy": 0.9987202711004807,
+      "min_arrival_control_proxy": 0.9937062172993016,
+      "threshold_fraction": 1.0
+    },
+    "region_sensitivity": {
+      "4.0": {
+        "team_id": "866",
+        "radius_m": 4.0,
+        "sample_count": 49,
+        "mean_arrival_control_proxy": 0.9987202711004807,
+        "min_arrival_control_proxy": 0.9937062172993016,
+        "threshold_fraction": 1.0
+      },
+      "5.0": {
+        "team_id": "866",
+        "radius_m": 5.0,
+        "sample_count": 81,
+        "mean_arrival_control_proxy": 0.99741016703993,
+        "min_arrival_control_proxy": 0.9816364098253472,
+        "threshold_fraction": 1.0
+      }
+    },
+    "region_favorable": true,
+    "vision": {
+      "status": "in_view",
+      "meaning": "At least one usable in-view sample before the holder action",
+      "total_samples": 7,
+      "known_samples": 7,
+      "in_view_samples": 7,
+      "in_view_fraction_known": 1.0,
+      "stop_before_action_frame": 49297,
+      "sample_counts": {
+        "in_view": 7
+      },
+      "occlusion_flag_samples": 0,
+      "observed_interval_s": 1.2,
+      "observations": [
+        {
+          "frame": 49284,
+          "status": "in_view",
+          "zone": "central",
+          "eccentricity_deg": 11.105947235892936,
+          "target_distance_m": 29.546590743010285,
+          "heading": {
+            "direction": {
+              "x": -0.24386528916911798,
+              "y": 0.9698091156193897
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.1763238537334662,
+            "nose_sign_component_m": 0.11531092837180429,
+            "ear_landmark_error_m": 0.06355000019073487,
+            "sign_landmark_error_m": 0.06356666723887126,
+            "eye_directional_agreement_deg": 19.01277121534711,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 49286,
+          "status": "in_view",
+          "zone": "peripheral",
+          "eccentricity_deg": 23.467181100053757,
+          "target_distance_m": 28.602916219530528,
+          "heading": {
+            "direction": {
+              "x": -0.03029559815591613,
+              "y": 0.9995409830178927
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.16507573441845924,
+            "nose_sign_component_m": 0.11306979274755746,
+            "ear_landmark_error_m": 0.06450000047683715,
+            "sign_landmark_error_m": 0.06420000076293945,
+            "eye_directional_agreement_deg": 19.1819649735317,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 49288,
+          "status": "in_view",
+          "zone": "peripheral",
+          "eccentricity_deg": 33.162331907493794,
+          "target_distance_m": 27.60069731187365,
+          "heading": {
+            "direction": {
+              "x": 0.1381970340588255,
+              "y": 0.9904047555304567
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.17366630195886607,
+            "nose_sign_component_m": 0.10535244086788033,
+            "ear_landmark_error_m": 0.06495000123977661,
+            "sign_landmark_error_m": 0.06450000127156576,
+            "eye_directional_agreement_deg": 7.943529785685838,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 49290,
+          "status": "in_view",
+          "zone": "central",
+          "eccentricity_deg": 4.2807119425420925,
+          "target_distance_m": 26.51759345642623,
+          "heading": {
+            "direction": {
+              "x": -0.3581954211872806,
+              "y": 0.9336466356392372
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.17030040130723897,
+            "nose_sign_component_m": 0.11767506916981448,
+            "ear_landmark_error_m": 0.06325000047683715,
+            "sign_landmark_error_m": 0.06643333435058595,
+            "eye_directional_agreement_deg": 1.077322120657048,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 49292,
+          "status": "in_view",
+          "zone": "central",
+          "eccentricity_deg": 3.2242444594225175,
+          "target_distance_m": 25.38076486444295,
+          "heading": {
+            "direction": {
+              "x": -0.376370529556369,
+              "y": 0.9264692247891769
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.17269850215318075,
+            "nose_sign_component_m": 0.10353349427373025,
+            "ear_landmark_error_m": 0.07079999923706054,
+            "sign_landmark_error_m": 0.07146666685740154,
+            "eye_directional_agreement_deg": 12.176906912541336,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 49294,
+          "status": "in_view",
+          "zone": "central",
+          "eccentricity_deg": 13.880637955803092,
+          "target_distance_m": 24.21214037166404,
+          "heading": {
+            "direction": {
+              "x": -0.20079964664362285,
+              "y": 0.9796323299625203
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.16434763007074218,
+            "nose_sign_component_m": 0.10648792437748696,
+            "ear_landmark_error_m": 0.07129999876022339,
+            "sign_landmark_error_m": 0.07276666641235352,
+            "eye_directional_agreement_deg": 3.9875296923693444,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 49296,
+          "status": "in_view",
+          "zone": "central",
+          "eccentricity_deg": 12.950506676457746,
+          "target_distance_m": 23.04329190822812,
+          "heading": {
+            "direction": {
+              "x": -0.22008136420716745,
+              "y": 0.9754815185992568
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.1681226225638085,
+            "nose_sign_component_m": 0.11477276896517227,
+            "ear_landmark_error_m": 0.07289999961853028,
+            "sign_landmark_error_m": 0.07716666539510092,
+            "eye_directional_agreement_deg": 21.040480677486656,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        }
+      ]
+    },
+    "vision_sensitivity": {
+      "60.0": "in_view",
+      "90.0": "in_view",
+      "110.0": "in_view"
+    },
+    "response": {
+      "possession_event_id": "8_889",
+      "response_category": "pass_to_requester",
+      "action_frame": 49297,
+      "latency_s": 0.9,
+      "target_id": 809759,
+      "pass_outcome": "successful"
+    }
+  },
+  {
+    "event_id": "1996435-809759-56414",
+    "match_id": 1996435,
+    "period": 2,
+    "player_id": 809759,
+    "holder_id": 560895,
+    "team_id": 866,
+    "start_index": 28207,
+    "end_index": 28210,
+    "analysis_index": 28209,
+    "start_frame": 56414,
+    "end_frame": 56420,
+    "analysis_frame": 56418,
+    "clock_s": 5538.8,
+    "duration_s": 0.6,
+    "arms": "right",
+    "kind": "raised_arm_candidate",
+    "review_label": "unreviewed",
+    "x": -25.280000686645508,
+    "y": -11.539999961853027,
+    "player_name": "P. Kikianis",
+    "shirt_number": 51,
+    "holder_name": "Isaias",
+    "nearest_opponent_m": 14.53212027685771,
+    "active_players": 22,
+    "missing_velocity_players": 0,
+    "detected_fraction": 0.6818181818181818,
+    "region_uses_extrapolated": true,
+    "region": {
+      "team_id": "866",
+      "radius_m": 4.0,
+      "sample_count": 49,
+      "mean_arrival_control_proxy": 0.985745358221742,
+      "min_arrival_control_proxy": 0.9083898280143924,
+      "threshold_fraction": 1.0
+    },
+    "region_sensitivity": {
+      "4.0": {
+        "team_id": "866",
+        "radius_m": 4.0,
+        "sample_count": 49,
+        "mean_arrival_control_proxy": 0.985745358221742,
+        "min_arrival_control_proxy": 0.9083898280143924,
+        "threshold_fraction": 1.0
+      },
+      "5.0": {
+        "team_id": "866",
+        "radius_m": 5.0,
+        "sample_count": 81,
+        "mean_arrival_control_proxy": 0.9725734988116448,
+        "min_arrival_control_proxy": 0.8050701142148551,
+        "threshold_fraction": 1.0
+      }
+    },
+    "region_favorable": true,
+    "vision": {
+      "status": "in_view",
+      "meaning": "At least one usable in-view sample before the holder action",
+      "total_samples": 4,
+      "known_samples": 4,
+      "in_view_samples": 4,
+      "in_view_fraction_known": 1.0,
+      "stop_before_action_frame": 56421,
+      "sample_counts": {
+        "in_view": 4
+      },
+      "occlusion_flag_samples": 0,
+      "observed_interval_s": 0.6,
+      "observations": [
+        {
+          "frame": 56414,
+          "status": "in_view",
+          "zone": "peripheral",
+          "eccentricity_deg": 22.820875275581926,
+          "target_distance_m": 19.333934031603555,
+          "heading": {
+            "direction": {
+              "x": -0.48714934251847436,
+              "y": 0.8733186807138722
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.16832379296525996,
+            "nose_sign_component_m": 0.12397416508627145,
+            "ear_landmark_error_m": 0.07839999914169311,
+            "sign_landmark_error_m": 0.0765333334604899,
+            "eye_directional_agreement_deg": 5.797156762655137,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 56416,
+          "status": "in_view",
+          "zone": "peripheral",
+          "eccentricity_deg": 38.77986772091296,
+          "target_distance_m": 18.991919496077212,
+          "heading": {
+            "direction": {
+              "x": -0.23405043239539536,
+              "y": 0.9722244571576713
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.16662886325812426,
+            "nose_sign_component_m": 0.11673933314841861,
+            "ear_landmark_error_m": 0.07839999914169311,
+            "sign_landmark_error_m": 0.0765333334604899,
+            "eye_directional_agreement_deg": 13.535655633802339,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 56418,
+          "status": "in_view",
+          "zone": "peripheral",
+          "eccentricity_deg": 43.61871175783592,
+          "target_distance_m": 18.662007705215135,
+          "heading": {
+            "direction": {
+              "x": -0.1643980792961598,
+              "y": 0.9863940751665805
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.17031754902225038,
+            "nose_sign_component_m": 0.12231315519014432,
+            "ear_landmark_error_m": 0.0871999979019165,
+            "sign_landmark_error_m": 0.08793333053588866,
+            "eye_directional_agreement_deg": 0.6208764223233855,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 56420,
+          "status": "in_view",
+          "zone": "peripheral",
+          "eccentricity_deg": 45.83171177392105,
+          "target_distance_m": 18.40467916609551,
+          "heading": {
+            "direction": {
+              "x": -0.14394086410536713,
+              "y": 0.9895862911543389
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.16673630518926968,
+            "nose_sign_component_m": 0.11543990468200607,
+            "ear_landmark_error_m": 0.0765499997138977,
+            "sign_landmark_error_m": 0.0753000005086263,
+            "eye_directional_agreement_deg": 23.653409557151466,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        }
+      ]
+    },
+    "vision_sensitivity": {
+      "60.0": "in_view",
+      "90.0": "in_view",
+      "110.0": "in_view"
+    },
+    "response": {
+      "possession_event_id": "8_989",
+      "response_category": "pass_elsewhere",
+      "action_frame": 56421,
+      "latency_s": 0.3,
+      "target_id": 560893,
+      "pass_outcome": "successful"
+    }
+  },
+  {
+    "event_id": "1996435-809759-57166",
+    "match_id": 1996435,
+    "period": 2,
+    "player_id": 809759,
+    "holder_id": 26766,
+    "team_id": 866,
+    "start_index": 28583,
+    "end_index": 28586,
+    "analysis_index": 28585,
+    "start_frame": 57166,
+    "end_frame": 57172,
+    "analysis_frame": 57170,
+    "clock_s": 5614.0,
+    "duration_s": 0.6,
+    "arms": "right",
+    "kind": "raised_arm_candidate",
+    "review_label": "unreviewed",
+    "x": -24.34000015258789,
+    "y": 0.6200000047683716,
+    "player_name": "P. Kikianis",
+    "shirt_number": 51,
+    "holder_name": "B. Vriends",
+    "nearest_opponent_m": 15.208102833546684,
+    "active_players": 22,
+    "missing_velocity_players": 0,
+    "detected_fraction": 0.5909090909090909,
+    "region_uses_extrapolated": true,
+    "region": {
+      "team_id": "866",
+      "radius_m": 4.0,
+      "sample_count": 49,
+      "mean_arrival_control_proxy": 0.9937494182374108,
+      "min_arrival_control_proxy": 0.9740797564039153,
+      "threshold_fraction": 1.0
+    },
+    "region_sensitivity": {
+      "4.0": {
+        "team_id": "866",
+        "radius_m": 4.0,
+        "sample_count": 49,
+        "mean_arrival_control_proxy": 0.9937494182374108,
+        "min_arrival_control_proxy": 0.9740797564039153,
+        "threshold_fraction": 1.0
+      },
+      "5.0": {
+        "team_id": "866",
+        "radius_m": 5.0,
+        "sample_count": 81,
+        "mean_arrival_control_proxy": 0.986972404583232,
+        "min_arrival_control_proxy": 0.9205056679577035,
+        "threshold_fraction": 1.0
+      }
+    },
+    "region_favorable": true,
+    "vision": {
+      "status": "in_view",
+      "meaning": "At least one usable in-view sample before the holder action",
+      "total_samples": 4,
+      "known_samples": 4,
+      "in_view_samples": 4,
+      "in_view_fraction_known": 1.0,
+      "stop_before_action_frame": 57175,
+      "sample_counts": {
+        "in_view": 4
+      },
+      "occlusion_flag_samples": 0,
+      "observed_interval_s": 0.6,
+      "observations": [
+        {
+          "frame": 57166,
+          "status": "in_view",
+          "zone": "peripheral",
+          "eccentricity_deg": 32.290521567842084,
+          "target_distance_m": 20.295443781784197,
+          "heading": {
+            "direction": {
+              "x": 0.5144926519053863,
+              "y": 0.8574947878181901
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.180757692640038,
+            "nose_sign_component_m": 0.12553666823480908,
+            "ear_landmark_error_m": 0.06730000019073487,
+            "sign_landmark_error_m": 0.06913333415985108,
+            "eye_directional_agreement_deg": 10.343592654115827,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 57168,
+          "status": "in_view",
+          "zone": "peripheral",
+          "eccentricity_deg": 34.48677423892339,
+          "target_distance_m": 19.99529144190733,
+          "heading": {
+            "direction": {
+              "x": 0.5471037169731463,
+              "y": 0.8370648259687941
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.18278139659328055,
+            "nose_sign_component_m": 0.12144093694682251,
+            "ear_landmark_error_m": 0.0727999997138977,
+            "sign_landmark_error_m": 0.07709999879201253,
+            "eye_directional_agreement_deg": 2.1953569439687404,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 57170,
+          "status": "in_view",
+          "zone": "peripheral",
+          "eccentricity_deg": 38.71236689053066,
+          "target_distance_m": 19.695849505175026,
+          "heading": {
+            "direction": {
+              "x": 0.6062090778253987,
+              "y": 0.7953053212207747
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.17980471805262224,
+            "nose_sign_component_m": 0.1188774548386502,
+            "ear_landmark_error_m": 0.0727999997138977,
+            "sign_landmark_error_m": 0.07709999879201253,
+            "eye_directional_agreement_deg": 12.200361577057246,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        },
+        {
+          "frame": 57172,
+          "status": "in_view",
+          "zone": "peripheral",
+          "eccentricity_deg": 36.16353192211221,
+          "target_distance_m": 19.417790750990232,
+          "heading": {
+            "direction": {
+              "x": 0.5669876990586836,
+              "y": 0.8237262586054542
+            },
+            "source": "ears_signed_by_nose",
+            "ear_baseline_m": 0.18695449732778685,
+            "nose_sign_component_m": 0.12473611890677729,
+            "ear_landmark_error_m": 0.0634500002861023,
+            "sign_landmark_error_m": 0.0665666675567627,
+            "eye_directional_agreement_deg": 13.81431732209764,
+            "confidence": "not_calibrated"
+          },
+          "occlusion_flag": false
+        }
+      ]
+    },
+    "vision_sensitivity": {
+      "60.0": "in_view",
+      "90.0": "in_view",
+      "110.0": "in_view"
+    },
+    "response": {
+      "possession_event_id": "8_999",
+      "response_category": "pass_elsewhere",
+      "action_frame": 57175,
+      "latency_s": 0.5,
+      "target_id": 560893,
+      "pass_outcome": "successful"
+    }
+  }
+]

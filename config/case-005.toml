@@ -1,0 +1,14 @@
+# Fixed before examining the 005 results. Same hypotheses as 004; only the event changes.
+[case]
+event_id = "1996435-795547-5148"
+context_before_s = 1.0
+
+[pass]
+speeds_mps = [10.0, 15.0, 20.0]
+release_delay_s = 0.0
+sample_spacing_m = 0.5
+verification_spacing_m = 0.25
+
+[visual]
+angles = [60.0, 90.0, 110.0]
+radii = [4.0, 5.0]

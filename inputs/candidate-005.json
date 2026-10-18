@@ -1,0 +1,24 @@
+[
+  {
+    "event_id": "1996435-795547-5148",
+    "match_id": 1996435,
+    "period": 1,
+    "player_id": 795547,
+    "holder_id": 51644,
+    "team_id": 869,
+    "start_index": 2574,
+    "end_index": 2581,
+    "analysis_index": 2576,
+    "start_frame": 5148,
+    "end_frame": 5162,
+    "analysis_frame": 5152,
+    "clock_s": 514.2,
+    "duration_s": 1.4,
+    "arms": "right",
+    "kind": "visual_candidate",
+    "review_label": "unreviewed",
+    "x": 11.569999694824219,
+    "y": -32.65999984741211,
+    "definition": "Visual candidate: the frozen geometric rule returns no state because the raised wrist's predicted error exceeds 20 cm. Onset is the first 5 Hz sample with the right wrist above the shoulder while the holder is known; confirmation follows the same three-sample rule."
+  }
+]

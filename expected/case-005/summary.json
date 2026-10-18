@@ -1,0 +1,157 @@
+{
+  "main_sample_count": 6,
+  "view_by_angle": {
+    "60": {
+      "known": 6,
+      "in_view": 3,
+      "total": 6
+    },
+    "90": {
+      "known": 6,
+      "in_view": 5,
+      "total": 6
+    },
+    "110": {
+      "known": 6,
+      "in_view": 5,
+      "total": 6
+    }
+  },
+  "control_by_radius": {
+    "4": {
+      "count": 6,
+      "mean_range": [
+        0.941958507449566,
+        0.9782279704983653
+      ]
+    },
+    "5": {
+      "count": 6,
+      "mean_range": [
+        0.8942953158933516,
+        0.9524143869666889
+      ]
+    }
+  },
+  "pass_by_speed": {
+    "10": {
+      "count": 6,
+      "minimum_margin_range_s": [
+        -0.7774187823847655,
+        -0.44574201800283997
+      ],
+      "critical_player_ids_by_frame": [
+        {
+          "frame": 5148,
+          "player_id": "51646"
+        },
+        {
+          "frame": 5150,
+          "player_id": "51646"
+        },
+        {
+          "frame": 5152,
+          "player_id": "51646"
+        },
+        {
+          "frame": 5154,
+          "player_id": "51646"
+        },
+        {
+          "frame": 5156,
+          "player_id": "51646"
+        },
+        {
+          "frame": 5158,
+          "player_id": "51646"
+        }
+      ],
+      "discretization_sensitivity": {
+        "coarse_spacing_m": 0.5,
+        "verification_spacing_m": 0.25,
+        "maximum_abs_delta_s": 0.016300525735185478,
+        "sign_agreement": true
+      }
+    },
+    "15": {
+      "count": 6,
+      "minimum_margin_range_s": [
+        -0.36448842948305415,
+        0.01236552788617229
+      ],
+      "critical_player_ids_by_frame": [
+        {
+          "frame": 5148,
+          "player_id": "51646"
+        },
+        {
+          "frame": 5150,
+          "player_id": "51646"
+        },
+        {
+          "frame": 5152,
+          "player_id": "51646"
+        },
+        {
+          "frame": 5154,
+          "player_id": "51646"
+        },
+        {
+          "frame": 5156,
+          "player_id": "51646"
+        },
+        {
+          "frame": 5158,
+          "player_id": "51646"
+        }
+      ],
+      "discretization_sensitivity": {
+        "coarse_spacing_m": 0.5,
+        "verification_spacing_m": 0.25,
+        "maximum_abs_delta_s": 0.019242595144030705,
+        "sign_agreement": true
+      }
+    },
+    "20": {
+      "count": 6,
+      "minimum_margin_range_s": [
+        -0.15802325303219844,
+        0.23361106028563905
+      ],
+      "critical_player_ids_by_frame": [
+        {
+          "frame": 5148,
+          "player_id": "51646"
+        },
+        {
+          "frame": 5150,
+          "player_id": "51646"
+        },
+        {
+          "frame": 5152,
+          "player_id": "51646"
+        },
+        {
+          "frame": 5154,
+          "player_id": "51646"
+        },
+        {
+          "frame": 5156,
+          "player_id": "51646"
+        },
+        {
+          "frame": 5158,
+          "player_id": "51646"
+        }
+      ],
+      "discretization_sensitivity": {
+        "coarse_spacing_m": 0.5,
+        "verification_spacing_m": 0.25,
+        "maximum_abs_delta_s": 0.015082618632636824,
+        "sign_agreement": true
+      }
+    }
+  },
+  "legal_status": "not_evaluated",
+  "interpretation": "Positive corridor margins are model arrival margins, not pass safety or probability."
+}

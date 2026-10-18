@@ -1,0 +1,50 @@
+[project]
+name = "ball-request-lab"
+version = "0.1.0"
+description = "Reproduces the numbers and figures of the article on players' visual requests for the ball."
+readme = "README.md"
+requires-python = ">=3.13"
+license = "MIT"
+dependencies = [
+    "numpy>=2.2",
+    "orjson>=3.10",
+    "matplotlib>=3.11.2",
+    "pillow>=11.0",
+    "torch>=2.6",
+]
+
+[project.scripts]
+ball-request-lab = "ball_request_lab.cli:main"
+
+[build-system]
+requires = ["setuptools>=80.0"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = ["ruff>=0.12"]
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux' or sys_platform == 'win32'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ball_request_lab = ["py.typed"]
+
+[tool.ruff]
+line-length = 100
+src = ["src"]
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["B", "E", "F", "I", "RUF", "SIM", "UP"]
+ignore = ["RUF001", "RUF002", "RUF003"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/ball_request_lab/verify.py" = ["E501"]

@@ -1,0 +1,484 @@
+{
+  "summary": {
+    "selected": 16,
+    "identity_and_label_evaluable": 2,
+    "excluded": 14,
+    "observed_class_support": {
+      "no_signal": 2,
+      "one_arm_raise": 0,
+      "two_arm_raise": 0,
+      "directional_point": 0,
+      "hand_to_head": 0
+    },
+    "can_estimate_raised_recall": false,
+    "models": {
+      "geometry": {
+        "evaluated": 2,
+        "abstained": 0,
+        "correct": 2,
+        "unit": "visually assessable sampled player-window; not an event rate"
+      },
+      "ridge": {
+        "evaluated": 2,
+        "abstained": 0,
+        "correct": 2,
+        "unit": "visually assessable sampled player-window; not an event rate"
+      },
+      "tcn": {
+        "evaluated": 2,
+        "abstained": 0,
+        "correct": 1,
+        "unit": "visually assessable sampled player-window; not an event rate"
+      }
+    },
+    "claim_limit": "Descriptive counts for a small visually reviewed sample. No overall five-class F1, population frequency, external-match validation or request-intent claim. Absent classes have no measurable recall."
+  },
+  "cases": [
+    {
+      "case_id": "independent-1925299-1-01",
+      "match_id": 1925299,
+      "gesture_type": "no_signal",
+      "evaluable_identity": false,
+      "identity_confidence": "uncertain",
+      "raised_label": "other",
+      "valid_fraction": 0.9435736677115988,
+      "geometry": "other",
+      "ridge": "one_arm_raise",
+      "tcn": "directional_point",
+      "ridge_softmax_scores": [
+        0.22941693663597107,
+        0.3140948712825775,
+        0.015748536214232445,
+        0.27634134888648987,
+        0.16439835727214813
+      ],
+      "tcn_softmax_scores": [
+        2.1955562701236886e-08,
+        3.447151541990934e-08,
+        1.3158502065735433e-10,
+        0.9424996376037598,
+        0.05750030651688576
+      ],
+      "scores_limit": "uncalibrated model outputs, not probabilities of requesting a pass"
+    },
+    {
+      "case_id": "independent-1925299-1-02",
+      "match_id": 1925299,
+      "gesture_type": "no_signal",
+      "evaluable_identity": false,
+      "identity_confidence": "uncertain",
+      "raised_label": "other",
+      "valid_fraction": 0.9843260188087775,
+      "geometry": "other",
+      "ridge": "one_arm_raise",
+      "tcn": "directional_point",
+      "ridge_softmax_scores": [
+        0.02712331898510456,
+        0.9547249674797058,
+        0.0009462852613069117,
+        0.004008891526609659,
+        0.013196461834013462
+      ],
+      "tcn_softmax_scores": [
+        1.9930430994463677e-07,
+        7.501917489993737e-12,
+        3.665995124012462e-16,
+        0.9996771812438965,
+        0.00032259695581160486
+      ],
+      "scores_limit": "uncalibrated model outputs, not probabilities of requesting a pass"
+    },
+    {
+      "case_id": "independent-1925299-1-03",
+      "match_id": 1925299,
+      "gesture_type": "no_signal",
+      "evaluable_identity": false,
+      "identity_confidence": "uncertain",
+      "raised_label": "other",
+      "valid_fraction": 0.9592476489028213,
+      "geometry": "other",
+      "ridge": "no_signal",
+      "tcn": "directional_point",
+      "ridge_softmax_scores": [
+        0.8949697613716125,
+        1.8710107951847021e-07,
+        0.07453718781471252,
+        0.03011118806898594,
+        0.0003816006937995553
+      ],
+      "tcn_softmax_scores": [
+        1.0178229814528095e-08,
+        1.3389394482032912e-08,
+        1.0213808271375413e-10,
+        0.9653518199920654,
+        0.03464813902974129
+      ],
+      "scores_limit": "uncalibrated model outputs, not probabilities of requesting a pass"
+    },
+    {
+      "case_id": "independent-1925299-1-04",
+      "match_id": 1925299,
+      "gesture_type": "no_signal",
+      "evaluable_identity": false,
+      "identity_confidence": "uncertain",
+      "raised_label": "other",
+      "valid_fraction": 0.9467084639498433,
+      "geometry": "other",
+      "ridge": "one_arm_raise",
+      "tcn": "no_signal",
+      "ridge_softmax_scores": [
+        0.0002080821868730709,
+        0.9979276657104492,
+        2.843963011400774e-05,
+        0.00012651189172174782,
+        0.0017093642381951213
+      ],
+      "tcn_softmax_scores": [
+        0.48496776819229126,
+        0.00021738486248068511,
+        5.699100913414412e-12,
+        0.3119683563709259,
+        0.20284651219844818
+      ],
+      "scores_limit": "uncalibrated model outputs, not probabilities of requesting a pass"
+    },
+    {
+      "case_id": "independent-1925299-2-01",
+      "match_id": 1925299,
+      "gesture_type": "no_signal",
+      "evaluable_identity": false,
+      "identity_confidence": "uncertain",
+      "raised_label": "other",
+      "valid_fraction": 0.9749216300940439,
+      "geometry": "other",
+      "ridge": "one_arm_raise",
+      "tcn": "directional_point",
+      "ridge_softmax_scores": [
+        1.7727095949387123e-16,
+        1.0,
+        2.3420172470983746e-16,
+        5.636952363219372e-11,
+        1.73608731557362e-11
+      ],
+      "tcn_softmax_scores": [
+        4.368500412965659e-06,
+        2.0534711708819486e-09,
+        5.379642112096801e-14,
+        0.9954559803009033,
+        0.00453964015468955
+      ],
+      "scores_limit": "uncalibrated model outputs, not probabilities of requesting a pass"
+    },
+    {
+      "case_id": "independent-1925299-2-02",
+      "match_id": 1925299,
+      "gesture_type": "hand_to_head",
+      "evaluable_identity": false,
+      "identity_confidence": "uncertain",
+      "raised_label": "other",
+      "valid_fraction": 0.9843260188087775,
+      "geometry": "other",
+      "ridge": "no_signal",
+      "tcn": "directional_point",
+      "ridge_softmax_scores": [
+        0.912093997001648,
+        0.00010175142233492807,
+        0.04467017203569412,
+        0.03465631976723671,
+        0.008477826602756977
+      ],
+      "tcn_softmax_scores": [
+        0.002933634677901864,
+        7.296993564942511e-11,
+        3.4103792251821213e-18,
+        0.996826708316803,
+        0.00023959559621289372
+      ],
+      "scores_limit": "uncalibrated model outputs, not probabilities of requesting a pass"
+    },
+    {
+      "case_id": "independent-1925299-2-03",
+      "match_id": 1925299,
+      "gesture_type": "no_signal",
+      "evaluable_identity": false,
+      "identity_confidence": "uncertain",
+      "raised_label": "other",
+      "valid_fraction": 0.9592476489028213,
+      "geometry": "other",
+      "ridge": "no_signal",
+      "tcn": "directional_point",
+      "ridge_softmax_scores": [
+        0.7310495972633362,
+        0.04136406257748604,
+        0.17547044157981873,
+        0.023027518764138222,
+        0.029088430106639862
+      ],
+      "tcn_softmax_scores": [
+        1.7620721337152645e-05,
+        2.3894914935596034e-09,
+        1.4194383312509697e-14,
+        0.9964463114738464,
+        0.0035361316986382008
+      ],
+      "scores_limit": "uncalibrated model outputs, not probabilities of requesting a pass"
+    },
+    {
+      "case_id": "independent-1925299-2-04",
+      "match_id": 1925299,
+      "gesture_type": "no_signal",
+      "evaluable_identity": true,
+      "identity_confidence": "high",
+      "raised_label": "other",
+      "valid_fraction": 0.987460815047022,
+      "geometry": "other",
+      "ridge": "no_signal",
+      "tcn": "no_signal",
+      "ridge_softmax_scores": [
+        0.54770827293396,
+        0.27236321568489075,
+        0.037021394819021225,
+        0.03928579017519951,
+        0.10362126678228378
+      ],
+      "tcn_softmax_scores": [
+        0.8322180509567261,
+        7.634691428393126e-05,
+        6.529448748175681e-13,
+        0.11290555447340012,
+        0.05480007454752922
+      ],
+      "scores_limit": "uncalibrated model outputs, not probabilities of requesting a pass"
+    },
+    {
+      "case_id": "independent-1996435-1-01",
+      "match_id": 1996435,
+      "gesture_type": "not_assessable",
+      "evaluable_identity": false,
+      "identity_confidence": "unresolved",
+      "raised_label": "other",
+      "valid_fraction": 0.9843260188087775,
+      "geometry": "other",
+      "ridge": "no_signal",
+      "tcn": "hand_to_head",
+      "ridge_softmax_scores": [
+        0.4797043800354004,
+        0.42641183733940125,
+        0.014712546020746231,
+        0.03133578598499298,
+        0.04783538728952408
+      ],
+      "tcn_softmax_scores": [
+        5.891157343285158e-06,
+        1.5145095858315472e-05,
+        8.374890225759657e-10,
+        0.4021913707256317,
+        0.5977875590324402
+      ],
+      "scores_limit": "uncalibrated model outputs, not probabilities of requesting a pass"
+    },
+    {
+      "case_id": "independent-1996435-1-02",
+      "match_id": 1996435,
+      "gesture_type": "not_assessable",
+      "evaluable_identity": false,
+      "identity_confidence": "unresolved",
+      "raised_label": "other",
+      "valid_fraction": 0.9529780564263323,
+      "geometry": "other",
+      "ridge": "no_signal",
+      "tcn": "directional_point",
+      "ridge_softmax_scores": [
+        0.6238207221031189,
+        0.055764034390449524,
+        0.057581957429647446,
+        0.16766397655010223,
+        0.09516932815313339
+      ],
+      "tcn_softmax_scores": [
+        0.44290849566459656,
+        3.863854658447963e-08,
+        1.861337696234584e-16,
+        0.5549640655517578,
+        0.002127413870766759
+      ],
+      "scores_limit": "uncalibrated model outputs, not probabilities of requesting a pass"
+    },
+    {
+      "case_id": "independent-1996435-1-03",
+      "match_id": 1996435,
+      "gesture_type": "not_assessable",
+      "evaluable_identity": false,
+      "identity_confidence": "unresolved",
+      "raised_label": "other",
+      "valid_fraction": 0.9153605015673981,
+      "geometry": "other",
+      "ridge": "no_signal",
+      "tcn": "directional_point",
+      "ridge_softmax_scores": [
+        0.6574835181236267,
+        0.11363410204648972,
+        0.029785605147480965,
+        0.06807208061218262,
+        0.13102474808692932
+      ],
+      "tcn_softmax_scores": [
+        0.021421389654278755,
+        1.194749643218529e-06,
+        2.1192874115772559e-13,
+        0.9401652812957764,
+        0.03841213136911392
+      ],
+      "scores_limit": "uncalibrated model outputs, not probabilities of requesting a pass"
+    },
+    {
+      "case_id": "independent-1996435-1-04",
+      "match_id": 1996435,
+      "gesture_type": "not_assessable",
+      "evaluable_identity": false,
+      "identity_confidence": "unresolved",
+      "raised_label": "other",
+      "valid_fraction": 0.9184952978056427,
+      "geometry": "other",
+      "ridge": "one_arm_raise",
+      "tcn": "directional_point",
+      "ridge_softmax_scores": [
+        0.00014640392328146845,
+        0.9992244243621826,
+        4.321074356994359e-06,
+        0.0005033220513723791,
+        0.0001216585369547829
+      ],
+      "tcn_softmax_scores": [
+        0.1749848574399948,
+        6.648326234426349e-06,
+        3.029947712000769e-13,
+        0.7648373246192932,
+        0.060171134769916534
+      ],
+      "scores_limit": "uncalibrated model outputs, not probabilities of requesting a pass"
+    },
+    {
+      "case_id": "independent-1996435-2-01",
+      "match_id": 1996435,
+      "gesture_type": "not_assessable",
+      "evaluable_identity": false,
+      "identity_confidence": "unresolved",
+      "raised_label": "other",
+      "valid_fraction": 1.0,
+      "geometry": "other",
+      "ridge": "one_arm_raise",
+      "tcn": "directional_point",
+      "ridge_softmax_scores": [
+        0.0019618356600403786,
+        0.9890069961547852,
+        0.0002471594198141247,
+        0.005358930677175522,
+        0.003425091737881303
+      ],
+      "tcn_softmax_scores": [
+        1.6556083437535563e-07,
+        1.2993600648769643e-06,
+        1.946343752834423e-09,
+        0.6919236183166504,
+        0.3080749213695526
+      ],
+      "scores_limit": "uncalibrated model outputs, not probabilities of requesting a pass"
+    },
+    {
+      "case_id": "independent-1996435-2-02",
+      "match_id": 1996435,
+      "gesture_type": "no_signal",
+      "evaluable_identity": true,
+      "identity_confidence": "high",
+      "raised_label": "other",
+      "valid_fraction": 0.9811912225705329,
+      "geometry": "other",
+      "ridge": "no_signal",
+      "tcn": "directional_point",
+      "ridge_softmax_scores": [
+        0.48873549699783325,
+        0.18078084290027618,
+        0.013256452977657318,
+        0.2639331817626953,
+        0.053294047713279724
+      ],
+      "tcn_softmax_scores": [
+        3.336830559419468e-05,
+        6.801402973807824e-13,
+        1.7248258980560921e-19,
+        0.9999277591705322,
+        3.885915066348389e-05
+      ],
+      "scores_limit": "uncalibrated model outputs, not probabilities of requesting a pass"
+    },
+    {
+      "case_id": "independent-1996435-2-03",
+      "match_id": 1996435,
+      "gesture_type": "not_assessable",
+      "evaluable_identity": false,
+      "identity_confidence": "unresolved",
+      "raised_label": "other",
+      "valid_fraction": 0.9498432601880877,
+      "geometry": "other",
+      "ridge": "no_signal",
+      "tcn": "directional_point",
+      "ridge_softmax_scores": [
+        0.8699631094932556,
+        7.404832302881914e-08,
+        0.08574814349412918,
+        0.04375055059790611,
+        0.000538097694516182
+      ],
+      "tcn_softmax_scores": [
+        2.449336011789427e-10,
+        3.8897570675544557e-07,
+        9.336743289622973e-08,
+        0.5765132308006287,
+        0.4234861731529236
+      ],
+      "scores_limit": "uncalibrated model outputs, not probabilities of requesting a pass"
+    },
+    {
+      "case_id": "independent-1996435-2-04",
+      "match_id": 1996435,
+      "gesture_type": "not_assessable",
+      "evaluable_identity": false,
+      "identity_confidence": "unresolved",
+      "raised_label": "other",
+      "valid_fraction": 0.9341692789968652,
+      "geometry": "other",
+      "ridge": "no_signal",
+      "tcn": "directional_point",
+      "ridge_softmax_scores": [
+        0.9780858159065247,
+        0.00010686686437111348,
+        0.012407217174768448,
+        0.0033665094524621964,
+        0.00603359192609787
+      ],
+      "tcn_softmax_scores": [
+        8.723362725504558e-07,
+        1.0570972569512449e-10,
+        3.959897663138694e-15,
+        0.9989413619041443,
+        0.0010577888460829854
+      ],
+      "scores_limit": "uncalibrated model outputs, not probabilities of requesting a pass"
+    }
+  ],
+  "provenance": {
+    "model_files_sha256": {
+      "checkpoints/tcn-seed-27.pt": "78e6b1b7cc45fddad5e2108e982d5051a5ccf1bb740171d7eb30c90cb4abe766",
+      "models/ridge.npz": "d4332b0c437bda14ccdf9995173489a3ac368425d8342bd165b9ccfe61978405",
+      "models/ridge.json": "9c4d61c96b3e8977a3dad35c60bd7728427fb1ce59e04513510f52767cb9bc23",
+      "config.toml": "dc7ddc56e05ca79252117b57dda232a906c250700db0a802f535df62c815b405",
+      "metrics.json": "e46f46291d0b79a0ea7b7f5fd381ef382200fd34cff33dfd0768c906596ec72e"
+    },
+    "selection_sha256": "2f0636f53a2c1067fc36ce318cf72e70a0f3468844cdfd6a374f5efd83c6bfb2",
+    "annotations_sha256": "40dce1c42bb3796a99b6fea6f93f88324c3b3f2580e5fc9fe9839811d8edcdc6",
+    "windows_sha256": "328a559aa3e0876ccae7577b9892f93f4985a2272edf350590d54ceaecbe58eb",
+    "evaluator_sha256": "59ddb2fc535d11be936ee59937e106edb2066a9bad47b3d3f2af2965528db81e",
+    "no_fitting_or_threshold_tuning": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "class_count": 5,
+  "penalty": 1.0,
+  "shapes": {
+    "mean": [
+      2233
+    ],
+    "scale": [
+      2233
+    ],
+    "weights": [
+      2234,
+      5
+    ]
+  }
+}

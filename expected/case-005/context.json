@@ -1,0 +1,676 @@
+{
+  "schema": "ball-request-lab/case-context/v1",
+  "case_event_id": "1996435-795547-5148",
+  "match_id": 1996435,
+  "reference_sample": {
+    "relative_s": 0.4,
+    "frame": 5152,
+    "source_clock_s": 514.2,
+    "ball": {
+      "x": -7.25,
+      "y": -17.19,
+      "detected": true
+    },
+    "pitch_length_m": 105.0,
+    "pitch_width_m": 68.0
+  },
+  "phase_of_play": {
+    "index": "52",
+    "frame_start": "5020",
+    "frame_end": "5371",
+    "time_start": "08:21.0",
+    "time_end": "08:56.1",
+    "duration": "35.1",
+    "attacking_side": "left_to_right",
+    "team_in_possession_shortname": "Sydney FC",
+    "team_in_possession_phase_type": "create",
+    "team_out_of_possession_phase_type": "medium_block",
+    "n_player_possessions_in_phase": "9",
+    "team_possession_loss_in_phase": "False",
+    "team_possession_lead_to_shot": "False",
+    "third_start": "defensive_third",
+    "channel_start": "center",
+    "third_end": "middle_third",
+    "channel_end": "wide_right"
+  },
+  "holder": {
+    "id": 51644,
+    "name": "R. Grant",
+    "number": 23,
+    "role": "Right Center Back",
+    "acronym": "RCB",
+    "x": -8.07,
+    "y": -16.72,
+    "detected": true,
+    "distance_from_holder_m": 0.0,
+    "distance_from_ball_m": 0.95,
+    "nearest_opponent": {
+      "id": 560893,
+      "name": "E. Alagich",
+      "number": 55,
+      "distance_m": 11.5,
+      "detected": true
+    }
+  },
+  "caller": {
+    "id": 795547,
+    "name": "Z. de Jesus",
+    "number": 21,
+    "role": "Right Back",
+    "acronym": "RB",
+    "x": 11.57,
+    "y": -32.66,
+    "detected": true,
+    "distance_from_holder_m": 25.29,
+    "distance_from_ball_m": 24.36,
+    "nearest_opponent": {
+      "id": 51646,
+      "name": "J. Yull",
+      "number": 12,
+      "distance_m": 11.29,
+      "detected": true
+    }
+  },
+  "observed_target": {
+    "id": 998256,
+    "name": "K. Shaw",
+    "number": 42,
+    "role": "Left Center Back",
+    "acronym": "LCB",
+    "x": -12.39,
+    "y": 1.06,
+    "detected": true,
+    "distance_from_holder_m": 18.3,
+    "distance_from_ball_m": 18.96,
+    "nearest_opponent": {
+      "id": 51686,
+      "name": "A. Goodwin",
+      "number": 26,
+      "distance_m": 10.9,
+      "detected": true
+    }
+  },
+  "opponents_between_ball_and_caller_x": [
+    {
+      "name": "A. Goodwin",
+      "number": 26,
+      "x": -3.86,
+      "y": -5.73
+    },
+    {
+      "name": "Z. Clough",
+      "number": 10,
+      "x": 2.09,
+      "y": 3.03
+    },
+    {
+      "name": "E. Alagich",
+      "number": 55,
+      "x": 3.43,
+      "y": -16.58
+    },
+    {
+      "name": "S. Mauk",
+      "number": 6,
+      "x": 3.46,
+      "y": -18.29
+    },
+    {
+      "name": "J. Yull",
+      "number": 12,
+      "x": 4.06,
+      "y": -24.23
+    },
+    {
+      "name": "J. Barnett",
+      "number": 14,
+      "x": 10.66,
+      "y": -3.52
+    }
+  ],
+  "lineup_at_reference": [
+    {
+      "name": "H. Devenish-Meares",
+      "number": 12,
+      "team_id": 869,
+      "acronym": "GK",
+      "role": "Goalkeeper",
+      "x": -26.92,
+      "y": -4.66,
+      "detected": false
+    },
+    {
+      "name": "K. Shaw",
+      "number": 42,
+      "team_id": 869,
+      "acronym": "LCB",
+      "role": "Left Center Back",
+      "x": -12.39,
+      "y": 1.06,
+      "detected": true
+    },
+    {
+      "name": "R. Grant",
+      "number": 23,
+      "team_id": 869,
+      "acronym": "RCB",
+      "role": "Right Center Back",
+      "x": -8.07,
+      "y": -16.72,
+      "detected": true
+    },
+    {
+      "name": "A. Cáceres",
+      "number": 17,
+      "team_id": 869,
+      "acronym": "AM",
+      "role": "Attacking Midfield",
+      "x": -2.18,
+      "y": -25.37,
+      "detected": true
+    },
+    {
+      "name": "Léo Sena",
+      "number": 15,
+      "team_id": 869,
+      "acronym": "LDM",
+      "role": "Left Defensive Midfield",
+      "x": -0.4,
+      "y": -3.53,
+      "detected": true
+    },
+    {
+      "name": "C. Hollman",
+      "number": 6,
+      "team_id": 869,
+      "acronym": "RDM",
+      "role": "Right Defensive Midfield",
+      "x": 2.49,
+      "y": -19.6,
+      "detected": true
+    },
+    {
+      "name": "J. Courtney-Perkins",
+      "number": 4,
+      "team_id": 869,
+      "acronym": "LB",
+      "role": "Left Back",
+      "x": 9.73,
+      "y": 24.64,
+      "detected": true
+    },
+    {
+      "name": "A. Ouahim",
+      "number": 8,
+      "team_id": 869,
+      "acronym": "LW",
+      "role": "Left Winger",
+      "x": 11.19,
+      "y": 1.4,
+      "detected": true
+    },
+    {
+      "name": "Z. de Jesus",
+      "number": 21,
+      "team_id": 869,
+      "acronym": "RB",
+      "role": "Right Back",
+      "x": 11.57,
+      "y": -32.66,
+      "detected": true
+    },
+    {
+      "name": "J. Lolley",
+      "number": 10,
+      "team_id": 869,
+      "acronym": "RW",
+      "role": "Right Winger",
+      "x": 17.37,
+      "y": -20.83,
+      "detected": true
+    },
+    {
+      "name": "P. Klimala",
+      "number": 9,
+      "team_id": 869,
+      "acronym": "CF",
+      "role": "Center Forward",
+      "x": 18.82,
+      "y": -4.58,
+      "detected": true
+    },
+    {
+      "name": "A. Goodwin",
+      "number": 26,
+      "team_id": 866,
+      "acronym": "CF",
+      "role": "Center Forward",
+      "x": -3.86,
+      "y": -5.73,
+      "detected": true
+    },
+    {
+      "name": "Z. Clough",
+      "number": 10,
+      "team_id": 866,
+      "acronym": "RW",
+      "role": "Right Winger",
+      "x": 2.09,
+      "y": 3.03,
+      "detected": true
+    },
+    {
+      "name": "E. Alagich",
+      "number": 55,
+      "team_id": 866,
+      "acronym": "LDM",
+      "role": "Left Defensive Midfield",
+      "x": 3.43,
+      "y": -16.58,
+      "detected": true
+    },
+    {
+      "name": "S. Mauk",
+      "number": 6,
+      "team_id": 866,
+      "acronym": "AM",
+      "role": "Attacking Midfield",
+      "x": 3.46,
+      "y": -18.29,
+      "detected": true
+    },
+    {
+      "name": "J. Yull",
+      "number": 12,
+      "team_id": 866,
+      "acronym": "LW",
+      "role": "Left Winger",
+      "x": 4.06,
+      "y": -24.23,
+      "detected": true
+    },
+    {
+      "name": "J. Barnett",
+      "number": 14,
+      "team_id": 866,
+      "acronym": "RDM",
+      "role": "Right Defensive Midfield",
+      "x": 10.66,
+      "y": -3.52,
+      "detected": true
+    },
+    {
+      "name": "F. Talladira",
+      "number": 62,
+      "team_id": 866,
+      "acronym": "LB",
+      "role": "Left Back",
+      "x": 17.6,
+      "y": -19.47,
+      "detected": true
+    },
+    {
+      "name": "D. Pierias",
+      "number": 20,
+      "team_id": 866,
+      "acronym": "RB",
+      "role": "Right Back",
+      "x": 18.39,
+      "y": 13.11,
+      "detected": true
+    },
+    {
+      "name": "B. Vriends",
+      "number": 3,
+      "team_id": 866,
+      "acronym": "RCB",
+      "role": "Right Center Back",
+      "x": 19.01,
+      "y": -2.0,
+      "detected": true
+    },
+    {
+      "name": "P. Kikianis",
+      "number": 51,
+      "team_id": 866,
+      "acronym": "LCB",
+      "role": "Left Center Back",
+      "x": 19.11,
+      "y": -10.84,
+      "detected": true
+    },
+    {
+      "name": "E. Cox",
+      "number": 40,
+      "team_id": 866,
+      "acronym": "GK",
+      "role": "Goalkeeper",
+      "x": 41.06,
+      "y": -1.6,
+      "detected": false
+    }
+  ],
+  "possession_chain": [
+    {
+      "frame_start": 5143,
+      "frame_end": 5160,
+      "player": "R. Grant",
+      "team": "Sydney FC",
+      "x_start": -8.43,
+      "y_start": -16.72,
+      "pass_outcome": "successful",
+      "pass_target": "K. Shaw",
+      "pass_direction": "sideway_left",
+      "pass_range": "medium",
+      "provider_passing_options": [
+        {
+          "name": "A. Cáceres",
+          "xpass_completion": 0.9954,
+          "xthreat": 0.0006,
+          "pass_direction": null,
+          "pass_range": null
+        },
+        {
+          "name": "K. Shaw",
+          "xpass_completion": 0.9981,
+          "xthreat": 0.0003,
+          "pass_direction": "sideway_left",
+          "pass_range": "medium"
+        },
+        {
+          "name": "Léo Sena",
+          "xpass_completion": 0.9848,
+          "xthreat": 0.002,
+          "pass_direction": null,
+          "pass_range": null
+        }
+      ]
+    },
+    {
+      "frame_start": 5180,
+      "frame_end": 5180,
+      "player": "K. Shaw",
+      "team": "Sydney FC",
+      "x_start": -12.63,
+      "y_start": 4.04,
+      "pass_outcome": "successful",
+      "pass_target": "H. Devenish-Meares",
+      "pass_direction": "backward",
+      "pass_range": "short",
+      "provider_passing_options": [
+        {
+          "name": "J. Courtney-Perkins",
+          "xpass_completion": 0.9033,
+          "xthreat": 0.0015,
+          "pass_direction": null,
+          "pass_range": null
+        },
+        {
+          "name": "H. Devenish-Meares",
+          "xpass_completion": 0.994,
+          "xthreat": 0.0,
+          "pass_direction": "backward",
+          "pass_range": "short"
+        }
+      ]
+    },
+    {
+      "frame_start": 5199,
+      "frame_end": 5199,
+      "player": "H. Devenish-Meares",
+      "team": "Sydney FC",
+      "x_start": -22.74,
+      "y_start": -5.45,
+      "pass_outcome": "successful",
+      "pass_target": "J. Courtney-Perkins",
+      "pass_direction": "sideway_left",
+      "pass_range": "long",
+      "provider_passing_options": [
+        {
+          "name": "J. Courtney-Perkins",
+          "xpass_completion": 0.8135,
+          "xthreat": 0.0008,
+          "pass_direction": "sideway_left",
+          "pass_range": "long"
+        },
+        {
+          "name": "R. Grant",
+          "xpass_completion": 0.9928,
+          "xthreat": 0.0004,
+          "pass_direction": null,
+          "pass_range": null
+        },
+        {
+          "name": "Z. de Jesus",
+          "xpass_completion": 0.7043,
+          "xthreat": 0.0008,
+          "pass_direction": null,
+          "pass_range": null
+        }
+      ]
+    },
+    {
+      "frame_start": 5222,
+      "frame_end": 5283,
+      "player": "J. Courtney-Perkins",
+      "team": "Sydney FC",
+      "x_start": -9.41,
+      "y_start": 31.67,
+      "pass_outcome": "successful",
+      "pass_target": "C. Hollman",
+      "pass_direction": "sideway_right",
+      "pass_range": "medium",
+      "provider_passing_options": [
+        {
+          "name": "K. Shaw",
+          "xpass_completion": 0.9564,
+          "xthreat": 0.0003,
+          "pass_direction": null,
+          "pass_range": null
+        },
+        {
+          "name": "C. Hollman",
+          "xpass_completion": 0.9985,
+          "xthreat": 0.0006,
+          "pass_direction": "sideway_right",
+          "pass_range": "medium"
+        }
+      ]
+    },
+    {
+      "frame_start": 5300,
+      "frame_end": 5310,
+      "player": "C. Hollman",
+      "team": "Sydney FC",
+      "x_start": -16.65,
+      "y_start": 7.66,
+      "pass_outcome": "successful",
+      "pass_target": "R. Grant",
+      "pass_direction": "sideway_right",
+      "pass_range": "short",
+      "provider_passing_options": [
+        {
+          "name": "K. Shaw",
+          "xpass_completion": 0.9969,
+          "xthreat": 0.0002,
+          "pass_direction": null,
+          "pass_range": null
+        },
+        {
+          "name": "R. Grant",
+          "xpass_completion": 0.9976,
+          "xthreat": 0.0006,
+          "pass_direction": "sideway_right",
+          "pass_range": "short"
+        },
+        {
+          "name": "Z. de Jesus",
+          "xpass_completion": 0.8589,
+          "xthreat": 0.0021,
+          "pass_direction": null,
+          "pass_range": null
+        }
+      ]
+    },
+    {
+      "frame_start": 5321,
+      "frame_end": 5334,
+      "player": "R. Grant",
+      "team": "Sydney FC",
+      "x_start": -16.21,
+      "y_start": -6.61,
+      "pass_outcome": "successful",
+      "pass_target": "Z. de Jesus",
+      "pass_direction": "forward",
+      "pass_range": "long",
+      "provider_passing_options": [
+        {
+          "name": "Z. de Jesus",
+          "xpass_completion": 0.9719,
+          "xthreat": 0.0011,
+          "pass_direction": "forward",
+          "pass_range": "long"
+        }
+      ]
+    },
+    {
+      "frame_start": 5358,
+      "frame_end": 5417,
+      "player": "Z. de Jesus",
+      "team": "Sydney FC",
+      "x_start": 11.03,
+      "y_start": -32.26,
+      "pass_outcome": "successful",
+      "pass_target": "Léo Sena",
+      "pass_direction": "sideway_left",
+      "pass_range": "short",
+      "provider_passing_options": [
+        {
+          "name": "J. Lolley",
+          "xpass_completion": 0.7379,
+          "xthreat": 0.012,
+          "pass_direction": null,
+          "pass_range": null
+        },
+        {
+          "name": "A. Cáceres",
+          "xpass_completion": 0.9111,
+          "xthreat": 0.0086,
+          "pass_direction": null,
+          "pass_range": null
+        },
+        {
+          "name": "C. Hollman",
+          "xpass_completion": 0.9096,
+          "xthreat": 0.0036,
+          "pass_direction": null,
+          "pass_range": null
+        },
+        {
+          "name": "Léo Sena",
+          "xpass_completion": 0.9699,
+          "xthreat": 0.0051,
+          "pass_direction": "sideway_left",
+          "pass_range": "short"
+        },
+        {
+          "name": "P. Klimala",
+          "xpass_completion": 0.5628,
+          "xthreat": 0.0238,
+          "pass_direction": null,
+          "pass_range": null
+        }
+      ]
+    },
+    {
+      "frame_start": 5425,
+      "frame_end": 5437,
+      "player": "Léo Sena",
+      "team": "Sydney FC",
+      "x_start": 13.31,
+      "y_start": -10.59,
+      "pass_outcome": "successful",
+      "pass_target": "A. Cáceres",
+      "pass_direction": "forward",
+      "pass_range": "medium",
+      "provider_passing_options": [
+        {
+          "name": "A. Ouahim",
+          "xpass_completion": 0.9145,
+          "xthreat": 0.0204,
+          "pass_direction": null,
+          "pass_range": null
+        },
+        {
+          "name": "A. Cáceres",
+          "xpass_completion": 0.6157,
+          "xthreat": 0.0069,
+          "pass_direction": "forward",
+          "pass_range": "medium"
+        },
+        {
+          "name": "P. Klimala",
+          "xpass_completion": 0.6724,
+          "xthreat": 0.0178,
+          "pass_direction": null,
+          "pass_range": null
+        },
+        {
+          "name": "J. Lolley",
+          "xpass_completion": 0.819,
+          "xthreat": 0.0214,
+          "pass_direction": null,
+          "pass_range": null
+        },
+        {
+          "name": "Z. de Jesus",
+          "xpass_completion": 0.8179,
+          "xthreat": 0.0026,
+          "pass_direction": null,
+          "pass_range": null
+        }
+      ]
+    },
+    {
+      "frame_start": 5456,
+      "frame_end": 5467,
+      "player": "A. Cáceres",
+      "team": "Sydney FC",
+      "x_start": 36.98,
+      "y_start": -28.5,
+      "pass_outcome": "unsuccessful",
+      "pass_target": "P. Klimala",
+      "pass_direction": null,
+      "pass_range": null,
+      "provider_passing_options": [
+        {
+          "name": "P. Klimala",
+          "xpass_completion": 0.1487,
+          "xthreat": 0.1155,
+          "pass_direction": null,
+          "pass_range": null
+        },
+        {
+          "name": "J. Lolley",
+          "xpass_completion": 0.3163,
+          "xthreat": 0.0523,
+          "pass_direction": null,
+          "pass_range": null
+        },
+        {
+          "name": "Z. de Jesus",
+          "xpass_completion": 0.5389,
+          "xthreat": 0.0059,
+          "pass_direction": null,
+          "pass_range": null
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Roles are the provider's lineup roles for the match, not positions inferred here.",
+    "xpass_completion and xthreat are the provider's own estimates; this project did not compute or validate them.",
+    "Distances are straight-line metres between source positions at the reference sample.",
+    "Nothing here enters the pre-action measurements of the integrated case."
+  ]
+}

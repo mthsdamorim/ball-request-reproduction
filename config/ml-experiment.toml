@@ -1,0 +1,19 @@
+# Wholly procedural positive-control protocol. These class frequencies are not
+# estimates of football event prevalence.
+[motion]
+seed = 20261004
+frames = 11
+train_bases_per_class = 80
+validation_bases_per_class = 20
+test_bases_per_class = 30
+train_variants = 2
+validation_variants = 2
+max_joint_error_cm = 20.0
+
+[model]
+ridge_penalty = 1.0
+tcn_epochs = 25
+tcn_batch_size = 64
+tcn_learning_rate = 0.003
+tcn_seeds = [7, 17, 27]
+abstain_min_valid_fraction = 0.15

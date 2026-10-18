@@ -1,0 +1,247 @@
+{
+  "description": "Clock anchors of the 40 clips reviewed before the independent real-window selection. The selection excludes every player within 15 s of these anchors.",
+  "source": "review stage of the first study (run 002), reduced to the fields the selector reads",
+  "source_sha256": "31348f352dffa212579e9255f42891ef8937f560f3896af4f4160c4798281e59",
+  "cases": [
+    {
+      "case_id": "development-1925299-1-01",
+      "match_id": 1925299,
+      "period": 1,
+      "source_clock_s": 881.0
+    },
+    {
+      "case_id": "development-1925299-1-02",
+      "match_id": 1925299,
+      "period": 1,
+      "source_clock_s": 882.0
+    },
+    {
+      "case_id": "audit-candidate-1925299-2-01",
+      "match_id": 1925299,
+      "period": 2,
+      "source_clock_s": 2784.0
+    },
+    {
+      "case_id": "audit-candidate-1925299-2-02",
+      "match_id": 1925299,
+      "period": 2,
+      "source_clock_s": 2926.4
+    },
+    {
+      "case_id": "audit-candidate-1925299-2-03",
+      "match_id": 1925299,
+      "period": 2,
+      "source_clock_s": 3914.4
+    },
+    {
+      "case_id": "audit-candidate-1925299-2-04",
+      "match_id": 1925299,
+      "period": 2,
+      "source_clock_s": 4881.8
+    },
+    {
+      "case_id": "audit-candidate-1925299-2-05",
+      "match_id": 1925299,
+      "period": 2,
+      "source_clock_s": 4882.4
+    },
+    {
+      "case_id": "audit-candidate-1925299-2-06",
+      "match_id": 1925299,
+      "period": 2,
+      "source_clock_s": 5754.0
+    },
+    {
+      "case_id": "control-1925299-2-01",
+      "match_id": 1925299,
+      "period": 2,
+      "source_clock_s": 2712.8
+    },
+    {
+      "case_id": "control-1925299-2-02",
+      "match_id": 1925299,
+      "period": 2,
+      "source_clock_s": 2774.4
+    },
+    {
+      "case_id": "control-1925299-2-03",
+      "match_id": 1925299,
+      "period": 2,
+      "source_clock_s": 2794.2
+    },
+    {
+      "case_id": "control-1925299-2-04",
+      "match_id": 1925299,
+      "period": 2,
+      "source_clock_s": 2884.0
+    },
+    {
+      "case_id": "control-1925299-2-05",
+      "match_id": 1925299,
+      "period": 2,
+      "source_clock_s": 2910.2
+    },
+    {
+      "case_id": "control-1925299-2-06",
+      "match_id": 1925299,
+      "period": 2,
+      "source_clock_s": 2923.0
+    },
+    {
+      "case_id": "control-1925299-2-07",
+      "match_id": 1925299,
+      "period": 2,
+      "source_clock_s": 2948.8
+    },
+    {
+      "case_id": "control-1925299-2-08",
+      "match_id": 1925299,
+      "period": 2,
+      "source_clock_s": 2954.2
+    },
+    {
+      "case_id": "audit-candidate-1996435-1-01",
+      "match_id": 1996435,
+      "period": 1,
+      "source_clock_s": 256.8
+    },
+    {
+      "case_id": "audit-candidate-1996435-1-02",
+      "match_id": 1996435,
+      "period": 1,
+      "source_clock_s": 890.8
+    },
+    {
+      "case_id": "audit-candidate-1996435-1-03",
+      "match_id": 1996435,
+      "period": 1,
+      "source_clock_s": 1034.4
+    },
+    {
+      "case_id": "audit-candidate-1996435-1-04",
+      "match_id": 1996435,
+      "period": 1,
+      "source_clock_s": 1221.4
+    },
+    {
+      "case_id": "control-1996435-1-01",
+      "match_id": 1996435,
+      "period": 1,
+      "source_clock_s": 54.0
+    },
+    {
+      "case_id": "control-1996435-1-02",
+      "match_id": 1996435,
+      "period": 1,
+      "source_clock_s": 78.0
+    },
+    {
+      "case_id": "control-1996435-1-03",
+      "match_id": 1996435,
+      "period": 1,
+      "source_clock_s": 110.8
+    },
+    {
+      "case_id": "control-1996435-1-04",
+      "match_id": 1996435,
+      "period": 1,
+      "source_clock_s": 155.2
+    },
+    {
+      "case_id": "control-1996435-1-05",
+      "match_id": 1996435,
+      "period": 1,
+      "source_clock_s": 206.6
+    },
+    {
+      "case_id": "control-1996435-1-06",
+      "match_id": 1996435,
+      "period": 1,
+      "source_clock_s": 222.6
+    },
+    {
+      "case_id": "control-1996435-1-07",
+      "match_id": 1996435,
+      "period": 1,
+      "source_clock_s": 365.8
+    },
+    {
+      "case_id": "control-1996435-1-08",
+      "match_id": 1996435,
+      "period": 1,
+      "source_clock_s": 381.0
+    },
+    {
+      "case_id": "audit-candidate-1996435-2-01",
+      "match_id": 1996435,
+      "period": 2,
+      "source_clock_s": 3549.4
+    },
+    {
+      "case_id": "audit-candidate-1996435-2-02",
+      "match_id": 1996435,
+      "period": 2,
+      "source_clock_s": 4825.8
+    },
+    {
+      "case_id": "audit-candidate-1996435-2-03",
+      "match_id": 1996435,
+      "period": 2,
+      "source_clock_s": 5538.8
+    },
+    {
+      "case_id": "audit-candidate-1996435-2-04",
+      "match_id": 1996435,
+      "period": 2,
+      "source_clock_s": 5614.0
+    },
+    {
+      "case_id": "control-1996435-2-01",
+      "match_id": 1996435,
+      "period": 2,
+      "source_clock_s": 2715.4
+    },
+    {
+      "case_id": "control-1996435-2-02",
+      "match_id": 1996435,
+      "period": 2,
+      "source_clock_s": 2869.2
+    },
+    {
+      "case_id": "control-1996435-2-03",
+      "match_id": 1996435,
+      "period": 2,
+      "source_clock_s": 2925.4
+    },
+    {
+      "case_id": "control-1996435-2-04",
+      "match_id": 1996435,
+      "period": 2,
+      "source_clock_s": 3071.4
+    },
+    {
+      "case_id": "control-1996435-2-05",
+      "match_id": 1996435,
+      "period": 2,
+      "source_clock_s": 3125.6
+    },
+    {
+      "case_id": "control-1996435-2-06",
+      "match_id": 1996435,
+      "period": 2,
+      "source_clock_s": 3131.8
+    },
+    {
+      "case_id": "control-1996435-2-07",
+      "match_id": 1996435,
+      "period": 2,
+      "source_clock_s": 3140.4
+    },
+    {
+      "case_id": "control-1996435-2-08",
+      "match_id": 1996435,
+      "period": 2,
+      "source_clock_s": 3211.4
+    }
+  ]
+}

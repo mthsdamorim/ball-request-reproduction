@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "provenance": {
+    "source": "/Users/matheusdeamorim/dev/personal/body-before-trajectory/outputs/synchronization-validation/heldout-results.json",
+    "method": "Frozen half-specific source-clock to broadcast-video offsets, assessed on three live-ball events per match half without refitting.",
+    "claim_limit": "These are empirical review aids, not a confidence interval, global synchronization guarantee, or proof that player pose has the same temporal error as ball tracking."
+  },
+  "formula": "video_seconds = source_clock_seconds + candidate_video_offset_s",
+  "periods": [
+    {
+      "match_id": 1925299,
+      "period": 1,
+      "candidate_video_offset_s": 273.71666700000003,
+      "validation_events": 3,
+      "observed_residual_envelope_s": [-0.08333366666681741, 0.2833330000000842],
+      "maximum_abs_observed_envelope_s": 0.2833330000000842
+    },
+    {
+      "match_id": 1925299,
+      "period": 2,
+      "candidate_video_offset_s": 1520.65,
+      "validation_events": 3,
+      "observed_residual_envelope_s": [-0.11666666666769743, 0.21666666666806123],
+      "maximum_abs_observed_envelope_s": 0.21666666666806123
+    },
+    {
+      "match_id": 1996435,
+      "period": 1,
+      "candidate_video_offset_s": 270.05,
+      "validation_events": 3,
+      "observed_residual_envelope_s": [-0.11666666666678793, 0.283333333333303],
+      "maximum_abs_observed_envelope_s": 0.283333333333303
+    },
+    {
+      "match_id": 1996435,
+      "period": 2,
+      "candidate_video_offset_s": 1303.9,
+      "validation_events": 3,
+      "observed_residual_envelope_s": [0.03333333333284827, 0.43333333333339397],
+      "maximum_abs_observed_envelope_s": 0.43333333333339397
+    }
+  ]
+}

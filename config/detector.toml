@@ -1,0 +1,36 @@
+# All angles are half-angles. These are exploratory engineering assumptions.
+[gesture]
+wrist_above_shoulder_m = 0.08
+wrist_above_elbow_m = 0.02
+max_joint_error_cm = 20.0
+min_segment_m = 0.12
+max_segment_m = 0.65
+min_duration_s = 0.4
+
+[region]
+radius_m = 4.0
+sample_spacing_m = 1.0
+favorable_mean_threshold = 0.65
+sensitivity_radii_m = [4.0, 5.0]
+
+[intercept]
+reaction_time_s = 0.20
+max_speed_mps = 5.0
+max_acceleration_mps2 = 3.0
+arrival_temperature_s = 0.45
+control_proxy_threshold = 0.50
+
+[vision]
+central_half_angle_deg = 20.0
+peripheral_half_angle_deg = 90.0
+max_target_distance_m = 60.0
+sensitivity_half_angles_deg = [60.0, 90.0, 110.0]
+
+[response]
+horizon_s = 3.0
+
+[review]
+seed = 20261004
+development_candidates = 12
+audit_candidates_per_half = 8
+audit_controls_per_half = 8

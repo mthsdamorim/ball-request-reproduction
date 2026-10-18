@@ -1,0 +1,45 @@
+[
+  {
+    "case_id": "integrated-005-dejesus",
+    "event_id": "1996435-795547-5148",
+    "group": "visual-candidate",
+    "label": "probable_request",
+    "prior_label": "incidental_observation_real_003",
+    "gesture_type": "one_arm_overhead",
+    "communicative_function": "probable_request_to_self",
+    "evaluable_identity": true,
+    "identity_confidence": "high",
+    "visible_arm_gesture": true,
+    "player_name": "Z. de Jesus",
+    "player_id": 795547,
+    "shirt_number": 21,
+    "match_id": 1996435,
+    "period": 1,
+    "source_clock_s": 514.2,
+    "video_time_s": 784.25,
+    "reviewer": "Visual review; not human expert adjudication",
+    "reviewed_at_utc": "2026-10-15T22:54:29.264616+00:00",
+    "notes": "Navy number 21 legible on the back in several native frames at the lower right, near the right touchline around the halfway line, consistent with the tracking position of player 795547. The right arm is held overhead from about 513.8 s to 515.6 s while R. Grant carries the ball on the far side. Sustained single-arm overhead display, open body toward the carrier, no opponent within several metres, and the provider's passing-option list for Grant's possession does not include this player. Function read as a probable request to self; a signal to a teammate cannot be excluded. The later pass to K. Shaw was not used to label the gesture.",
+    "evidence_files": [
+      "outputs/integrated-005-evidence/c_513.4.png",
+      "outputs/integrated-005-evidence/c_513.8.png",
+      "outputs/integrated-005-evidence/c_514.2.png",
+      "outputs/integrated-005-evidence/c_514.6.png",
+      "outputs/integrated-005-evidence/c_515.0.png",
+      "outputs/integrated-005-evidence/c_515.4.png",
+      "outputs/integrated-005-evidence/c_515.8.png",
+      "outputs/integrated-005-evidence/c_516.2.png"
+    ],
+    "evidence_sha256": {
+      "outputs/integrated-005-evidence/c_513.4.png": "2d872a864dd87e112f136caff346e8434f9ed19634a61ec7a0d38781aa930a61",
+      "outputs/integrated-005-evidence/c_513.8.png": "32333440f1f29b92c447a92bf0472946cc067982faef8f2873f416727b8417df",
+      "outputs/integrated-005-evidence/c_514.2.png": "de48e28d56820aefb30362edda848654f54357b958273fefbb2df2b0321df8de",
+      "outputs/integrated-005-evidence/c_514.6.png": "8d419a4295824685ac12af9334fc8670c115ccdcf2fe504aff77e0f091d6c87f",
+      "outputs/integrated-005-evidence/c_515.0.png": "a0bbbd5d1365d4cc13a36d01e5c37968f6e030443be4938f7167e361f6d2a2c5",
+      "outputs/integrated-005-evidence/c_515.4.png": "edcf356dbb60d42d971e2bd7c1f2bab85c127f4adbd2fadc4cb7865df6681c12",
+      "outputs/integrated-005-evidence/c_515.8.png": "946ff3f1e12fc222d45139c35d0d67d965d285dbb7724b20227770adb96a104a",
+      "outputs/integrated-005-evidence/c_516.2.png": "199372ef545defec94c5b7e320c0b5e2f69799f7af504d89f10756e4347f638f"
+    },
+    "instruction": "Inspect broadcast evidence; do not infer intent from pose alone."
+  }
+]
